@@ -1,0 +1,74 @@
+{
+  "template": {
+    "template_id": "QCR001",
+    "template_name": "Installation and Qualification of NanoRam 1064 Handheld Raman Spectrometer",
+    "type": "change_control_form",
+    "description": "Change Control record for installation and qualification of NanoRam 1064 units and respective data management software (NID EX) at Tampa site.",
+    "sections": [
+      {
+        "header": "Summary",
+        "fields": {
+          "Request_No": "545770",
+          "Workflow": "QCR",
+          "Workflow_Version": "QCR WF v13.1",
+          "Request_Status": "Implementation",
+          "Created_On": "May 12, 2025",
+          "Entered_By": "Arie Bingaman",
+          "Requested_By": "Arie Bingaman",
+          "Request_Owner": "bingama",
+          "Title_of_Change": "Installation and Qualification of NanoRam 1064 Handheld Raman Spectrometer and its respective data management software, NID EX for Tampa site.",
+          "Review_Board_Site": "Tampa",
+          "Change_Review_Specialist": "ortizra",
+          "Line_of_Business": "NA Pharma/Lens Care",
+          "Other_Sites_Impacted": "No",
+          "List_of_Sites_Impacted": "Tampa"
+        }
+      },
+      {
+        "header": "Change Details",
+        "fields": {
+          "Source_Record_Type": "Other",
+          "Source_Record_Number": "",
+          "Source_Record_URL": "",
+          "Reason_for_Change": "Quality System Improvement",
+          "Type_of_Change": "Software; Equipment / Facility",
+          "Change_Implementation_Manager": "Arie Bingaman",
+          "Priority": "20 - Normal",
+          "Number_of_Iterations_Submit": 1,
+          "Date_Submitted": "May 19, 2025",
+          "Initial_Date_Submitted": "May 19, 2025"
+        }
+      },
+      {
+        "header": "General Information",
+        "fields": {
+          "Description_of_Change": "Installation and Qualification of three NanoRam 1064 handheld spectrometer units, its operating system NOS-1064, and its respective data management software, NID EX in Tampa site. This includes installation and qualification of three NanoRam 1064 units and associated NOS-1064 software managed under NID EX. The new Raman spectrometer units offer an alternative chemical ID testing for packaging components and raw materials in Tampa manufacturing. This supports faster, cost-effective testing while maintaining data integrity for product testing and aligns with the CORE 2.0 GLIMS Paperless Lab project."
+        }
+      },
+      {
+        "header": "Impact Details",
+        "fields": {
+          "Third_Parties_Impacted": "",
+          "Third_Parties_Impact_Details": "",
+          "Change_Requires_Lot_Hold": "No",
+          "Lot_Hold_Details": "",
+          "Process_Impacted": "None",
+          "Products_Impacted": "None",
+          "Products_Impacted_Additional_Information": "All Tampa Products",
+          "Specific_Products_List": [
+            "030 - Sulfacetamide Sodium Ophthalmic Solution, 10%",
+            "034 - Neomycin and Polymyxin B Sulfates and Gramicidin Ophthalmic Solution"
+          ],
+          "Lots_Potentially_Affected": "N/A"
+        }
+      },
+      {
+        "header": "Impact / Justification Analysis",
+        "fields": {
+          "Total_Entries": 25,
+          "Comments": "Implementation supports Tampa site testing optimization and regulatory compliance. The alternative ID testing setup provides cost savings and faster turnaround without compromising quality."
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,319 @@
+{
+    "template": {
+        "template_id": "HI002",
+        "template_name": "Health Insurance Risk Assessment",
+        "type": "weightage",
+        "description": "Questionnaire to assess applicant health risk based on weighted responses.",
+        "questions": [
+            {
+                "question_id": "Q1",
+                "text": "What is your age group?",
+                "type": "dropdown",
+                "options": [
+                    {
+                        "option_id": "Q1O1",
+                        "option": "Below 25 years",
+                        "weight": 10
+                    },
+                    {
+                        "option_id": "Q1O2",
+                        "option": "25 - 35 years",
+                        "weight": 8
+                    },
+                    {
+                        "option_id": "Q1O3",
+                        "option": "36 - 45 years",
+                        "weight": 6
+                    },
+                    {
+                        "option_id": "Q1O4",
+                        "option": "46 - 60 years",
+                        "weight": 4
+                    },
+                    {
+                        "option_id": "Q1O5",
+                        "option": "Above 60 years",
+                        "weight": 2
+                    }
+                ],
+                "selected_answer": "36 - 45 years",
+                "selected_weight": 6
+            },
+            {
+                "question_id": "Q2",
+                "text": "Do you smoke or consume tobacco?",
+                "type": "radio",
+                "options": [
+                    {
+                        "option_id": "Q2O1",
+                        "option": "No",
+                        "weight": 10
+                    },
+                    {
+                        "option_id": "Q2O2",
+                        "option": "Occasionally",
+                        "weight": 5
+                    },
+                    {
+                        "option_id": "Q2O3",
+                        "option": "Regularly",
+                        "weight": 0
+                    }
+                ],
+                "selected_answer": "Occasionally",
+                "selected_weight": 5
+            },
+            {
+                "question_id": "Q3",
+                "text": "Do you consume alcohol?",
+                "type": "radio",
+                "options": [
+                    {
+                        "option_id": "Q3O1",
+                        "option": "Never",
+                        "weight": 10
+                    },
+                    {
+                        "option_id": "Q3O2",
+                        "option": "Occasionally (1-2 times/week)",
+                        "weight": 7
+                    },
+                    {
+                        "option_id": "Q3O3",
+                        "option": "Frequently (3 or more times/week)",
+                        "weight": 3
+                    }
+                ],
+                "selected_answer": "Never",
+                "selected_weight": 10
+            },
+            {
+                "question_id": "Q4",
+                "text": "Do you have any of the following pre-existing medical conditions?",
+                "type": "checkbox",
+                "options": [
+                    {
+                        "option_id": "Q4O1",
+                        "option": "Diabetes",
+                        "weight": 3
+                    },
+                    {
+                        "option_id": "Q4O2",
+                        "option": "Hypertension",
+                        "weight": 3
+                    },
+                    {
+                        "option_id": "Q4O3",
+                        "option": "Heart disease",
+                        "weight": 2
+                    },
+                    {
+                        "option_id": "Q4O4",
+                        "option": "Asthma or respiratory issues",
+                        "weight": 4
+                    },
+                    {
+                        "option_id": "Q4O5",
+                        "option": "None of the above",
+                        "weight": 10
+                    }
+                ]
+            },
+            {
+                "question_id": "Q5",
+                "text": "How often do you exercise per week?",
+                "type": "dropdown",
+                "options": [
+                    {
+                        "option_id": "Q5O1",
+                        "option": "Daily",
+                        "weight": 10
+                    },
+                    {
+                        "option_id": "Q5O2",
+                        "option": "3–5 times a week",
+                        "weight": 8
+                    },
+                    {
+                        "option_id": "Q5O3",
+                        "option": "1–2 times a week",
+                        "weight": 6
+                    },
+                    {
+                        "option_id": "Q5O4",
+                        "option": "Rarely",
+                        "weight": 3
+                    },
+                    {
+                        "option_id": "Q5O5",
+                        "option": "Never",
+                        "weight": 0
+                    }
+                ]
+            },
+            {
+                "question_id": "Q6",
+                "text": "When was your last full body health check-up?",
+                "type": "dropdown",
+                "options": [
+                    {
+                        "option_id": "Q6O1",
+                        "option": "Within last 6 months",
+                        "weight": 10
+                    },
+                    {
+                        "option_id": "Q6O2",
+                        "option": "6 months – 1 year ago",
+                        "weight": 8
+                    },
+                    {
+                        "option_id": "Q6O3",
+                        "option": "1–2 years ago",
+                        "weight": 5
+                    },
+                    {
+                        "option_id": "Q6O4",
+                        "option": "More than 2 years ago",
+                        "weight": 2
+                    },
+                    {
+                        "option_id": "Q6O5",
+                        "option": "Never done",
+                        "weight": 0
+                    }
+                ]
+            },
+            {
+                "question_id": "Q7",
+                "text": "Do you have any family history of critical illnesses?",
+                "type": "checkbox",
+                "options": [
+                    {
+                        "option_id": "Q7O1",
+                        "option": "Heart disease",
+                        "weight": 2
+                    },
+                    {
+                        "option_id": "Q7O2",
+                        "option": "Cancer",
+                        "weight": 2
+                    },
+                    {
+                        "option_id": "Q7O3",
+                        "option": "Stroke",
+                        "weight": 2
+                    },
+                    {
+                        "option_id": "Q7O4",
+                        "option": "Diabetes",
+                        "weight": 2
+                    },
+                    {
+                        "option_id": "Q7O5",
+                        "option": "None of the above",
+                        "weight": 10
+                    }
+                ]
+            },
+            {
+                "question_id": "Q8",
+                "text": "What is your current Body Mass Index (BMI) range?",
+                "type": "dropdown",
+                "options": [
+                    {
+                        "option_id": "Q8O1",
+                        "option": "18.5 - 24.9 (Normal)",
+                        "weight": 10
+                    },
+                    {
+                        "option_id": "Q8O2",
+                        "option": "25 - 29.9 (Overweight)",
+                        "weight": 6
+                    },
+                    {
+                        "option_id": "Q8O3",
+                        "option": "30 and above (Obese)",
+                        "weight": 2
+                    },
+                    {
+                        "option_id": "Q8O4",
+                        "option": "Below 18.5 (Underweight)",
+                        "weight": 4
+                    }
+                ]
+            },
+            {
+                "question_id": "Q9",
+                "text": "How would you rate your stress levels?",
+                "type": "radio",
+                "options": [
+                    {
+                        "option_id": "Q9O1",
+                        "option": "Low",
+                        "weight": 10
+                    },
+                    {
+                        "option_id": "Q9O2",
+                        "option": "Moderate",
+                        "weight": 6
+                    },
+                    {
+                        "option_id": "Q9O3",
+                        "option": "High",
+                        "weight": 2
+                    }
+                ]
+            },
+            {
+                "question_id": "Q10",
+                "text": "Do you take any regular medications?",
+                "type": "radio",
+                "options": [
+                    {
+                        "option_id": "Q10O1",
+                        "option": "No",
+                        "weight": 10
+                    },
+                    {
+                        "option_id": "Q10O2",
+                        "option": "Occasionally",
+                        "weight": 6
+                    },
+                    {
+                        "option_id": "Q10O3",
+                        "option": "Yes, regularly",
+                        "weight": 2
+                    }
+                ]
+            }
+        ],
+        "ranking": {
+            "criteria": [
+                {
+                    "range": {
+                        "min": 0,
+                        "max": 40
+                    },
+                    "rank": "High Risk",
+                    "description": "High medical risk — higher premium or additional medical tests required."
+                },
+                {
+                    "range": {
+                        "min": 41,
+                        "max": 70
+                    },
+                    "rank": "Medium Risk",
+                    "description": "Moderate risk — standard premium applicable."
+                },
+                {
+                    "range": {
+                        "min": 71,
+                        "max": 100
+                    },
+                    "rank": "Low Risk",
+                    "description": "Low medical risk — eligible for best premium rates."
+                }
+            ]
+        }
+    }
+}

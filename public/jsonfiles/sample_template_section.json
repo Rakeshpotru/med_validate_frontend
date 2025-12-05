@@ -1,0 +1,148 @@
+{
+  "template": {
+    "template_id": "HI001",
+    "template_name": "Health Insurance Questionnaire",
+	"version":"1",
+    "type": "questionnaire",
+    "description": "Collects medical and lifestyle information for health insurance evaluation.",
+	"sections":[
+		{
+			"name":"Deviation Closure",
+			"questions": [
+					  {
+						"question_id": "Q1",
+						"question_no": "1",
+						"text": "What is your age group?",
+						"type": "dropdown",
+						"options": [
+						  { "option_id": "Q1O1", "option": "Below 25 years" },
+						  { "option_id": "Q1O2", "option": "25 - 35 years" },
+						  { "option_id": "Q1O3", "option": "36 - 45 years" },
+						  { "option_id": "Q1O4", "option": "46 - 60 years" },
+						  { "option_id": "Q1O5", "option": "Above 60 years" }
+						]
+					  },
+					  {
+						"question_id": "Q2",
+						"question_no": "2",
+						"text": "Do you smoke or consume tobacco?",
+						"type": "radio",
+						"options": [
+						  { "option_id": "Q2O1", "option": "No" },
+						  { "option_id": "Q2O2", "option": "Occasionally" },
+						  { "option_id": "Q2O3", "option": "Regularly" }
+						]
+					  },
+					  {
+						"question_id": "Q3",
+						"question_no": "3",
+						"text": "Do you consume alcohol?",
+						"type": "radio",
+						"options": [
+						  { "option_id": "Q3O1", "option": "Never" },
+						  { "option_id": "Q3O2", "option": "Occasionally (1-2 times/week)" },
+						  { "option_id": "Q3O3", "option": "Frequently (3 or more times/week)" }
+						]
+					  }
+				]
+		},
+		{
+			"name": "",
+			"questions": [
+							{
+								"question_id": "Q4",
+								"question_no": "4",
+								"text": "Do you have any of the following pre-existing medical conditions?",
+								"type": "checkbox",
+								"options": [
+								  { "option_id": "Q4O1", "option": "Diabetes" },
+								  { "option_id": "Q4O2", "option": "Hypertension" },
+								  { "option_id": "Q4O3", "option": "Heart disease" },
+								  { "option_id": "Q4O4", "option": "Asthma or respiratory issues" },
+								  { "option_id": "Q4O5", "option": "None of the above" }
+								]
+							  },
+							  {
+								"question_id": "Q5",
+								"question_no": "5",
+								"text": "How often do you exercise per week?",
+								"type": "dropdown",
+								"options": [
+								  { "option_id": "Q5O1", "option": "Daily" },
+								  { "option_id": "Q5O2", "option": "3–5 times a week" },
+								  { "option_id": "Q5O3", "option": "1–2 times a week" },
+								  { "option_id": "Q5O4", "option": "Rarely" },
+								  { "option_id": "Q5O5", "option": "Never" }
+								]
+							  },
+							  {
+								"question_id": "Q6",
+								"question_no": "6",
+								"text": "When was your last full body health check-up?",
+								"type": "dropdown",
+								"options": [
+								  { "option_id": "Q6O1", "option": "Within last 6 months" },
+								  { "option_id": "Q6O2", "option": "6 months – 1 year ago" },
+								  { "option_id": "Q6O3", "option": "1–2 years ago" },
+								  { "option_id": "Q6O4", "option": "More than 2 years ago" },
+								  { "option_id": "Q6O5", "option": "Never done" }
+								]
+							  }
+			]
+		}
+		,
+		{
+			"name": "",
+			"questions": [
+				  {
+					"question_id": "Q7",
+					"question_no": "7",
+					"text": "Do you have any family history of critical illnesses?",
+					"type": "checkbox",
+					"options": [
+					  { "option_id": "Q7O1", "option": "Heart disease" },
+					  { "option_id": "Q7O2", "option": "Cancer" },
+					  { "option_id": "Q7O3", "option": "Stroke" },
+					  { "option_id": "Q7O4", "option": "Diabetes" },
+					  { "option_id": "Q7O5", "option": "None of the above" }
+					]
+				  },
+				  {
+					"question_id": "Q8",
+					"question_no": "8",
+					"text": "What is your current Body Mass Index (BMI) range?",
+					"type": "dropdown",
+					"options": [
+					  { "option_id": "Q8O1", "option": "18.5 - 24.9 (Normal)" },
+					  { "option_id": "Q8O2", "option": "25 - 29.9 (Overweight)" },
+					  { "option_id": "Q8O3", "option": "30 and above (Obese)" },
+					  { "option_id": "Q8O4", "option": "Below 18.5 (Underweight)" }
+					]
+				  },
+				  {
+					"question_id": "Q9",
+					"question_no": "9",
+					"text": "How would you rate your stress levels?",
+					"type": "radio",
+					"options": [
+					  { "option_id": "Q9O1", "option": "Low" },
+					  { "option_id": "Q9O2", "option": "Moderate" },
+					  { "option_id": "Q9O3", "option": "High" }
+					]
+				  },
+				  {
+					"question_id": "Q10",
+					"question_no": "10",
+					"text": "Do you take any regular medications?",
+					"type": "radio",
+					"options": [
+					  { "option_id": "Q10O1", "option": "No" },
+					  { "option_id": "Q10O2", "option": "Occasionally" },
+					  { "option_id": "Q10O3", "option": "Yes, regularly" }
+					]
+				}
+			]
+		}
+	]
+  }
+}

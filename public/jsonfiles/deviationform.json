@@ -1,0 +1,262 @@
+{
+    "formTitle": "Deviation Report Form",
+    
+    "sections": [
+      {
+        "title": "General Information",
+        "style": {
+          "backgroundColor": "#1d69bf",
+          "color": "#fff",
+          "fontWeight": "bold",
+          "padding": "10px",
+          "borderRadius": "6px 6px 0 0"
+        },
+        "fields": [
+          {
+            "group": true,
+            "layout": "horizontal",
+            "fields": [
+              {
+                "label": "Deviation Number",
+                "type": "text",
+                "key": "deviationNumber",
+                "placeholder": "Enter deviation number",
+                "style": { "width": "48%" }
+              },
+              {
+                "label": "Raised Date",
+                "type": "date",
+                "key": "deviationDate",
+                "style": { "width": "48%" }
+              },
+              {
+                "label": "Date",
+                "type": "date",
+                "key": "dateIdentified",
+                "placeholder": "Select date",
+                "style": { "width": "48%" }
+              }
+            ]
+          },
+          {
+            "label": "System/Application & Version",
+            "type": "text",
+            "key": "systemVersion",
+            "placeholder": "Enter system/application and version",
+            "style": { "width": "100%", "marginTop": "10px" }
+          },
+          {
+            "group": true,
+            "layout": "horizontal",
+            "fields": [
+              {
+                "label": "Reported By",
+                "type": "text",
+                "key": "reportedBy",
+                "placeholder": "Enter reporter name",
+                "style": { "width": "100%" }
+              },
+              {
+                "label": "Deviation Severity (Risk)",
+                "type": "checkbox-group",
+                "key": "severityLevel",
+                "options": ["Critical", "High", "Medium", "Low"],
+                "style": { "marginTop": "10px" }
+              }
+            ]
+          },
+          {
+            "group": true,
+            "layout": "horizontal",
+            "fields": [
+              {
+                "label": "Test Script #",
+                "type": "text",
+                "key": "testScript",
+                "placeholder": "Enter test script number",
+                "style": { "width": "100%" }
+              },
+              {
+                "label": "Step #",
+                "type": "text",
+                "key": "stepNumber",
+                "placeholder": "Enter step number",
+                "style": { "width": "100%" }
+              },
+              {
+                "label": "Run #",
+                "type": "text",
+                "key": "runNumber",
+                "placeholder": "Enter run number",
+                "style": { "width": "100%" }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Deviation Details",
+        "style": {
+          "backgroundColor": "#1d69bf",
+          "color": "#fff",
+          "fontWeight": "bold",
+          "padding": "10px",
+          "marginTop": "20px",
+          "borderRadius": "6px 6px 0 0" 
+        },
+        "fields": [
+          {
+            "label": "Deviation Description",
+            "type": "textarea",
+            "key": "deviationDescription",
+            "placeholder": "Describe the deviation observed...",
+            "style": { "width": "100%", "marginTop": "10px" }
+          },
+          {
+            "label": "Impact Assessment",
+            "type": "textarea",
+            "key": "impactAssessment",
+            "placeholder": "Enter impact assessment...",
+            "style": { "width": "100%", "marginTop": "10px" }
+          },
+          {
+            "label": "Immediate Actions Taken",
+            "type": "textarea",
+            "key": "immediateAction",
+            "placeholder": "Describe immediate actions taken...",
+            "style": { "width": "100%", "marginTop": "10px" }
+          }
+        ]
+      },
+      {
+        "title": "Investigation",
+        "style": {
+          "backgroundColor": "#1d69bf",
+          "color": "#fff",
+          "fontWeight": "bold",
+          "padding": "10px",
+          "marginTop": "20px",
+          "borderRadius": "6px 6px 0 0"
+        },
+        "fields": [
+          {
+            "label": "Root Cause Analysis",
+            "type": "textarea",
+            "key": "rootCauseAnalysis",
+            "placeholder": "Enter root cause analysis...",
+            "style": { "width": "100%", "marginTop": "10px" }
+          },
+          {
+            "label": "Root Cause(s)",
+            "type": "textarea",
+            "key": "rootCauses",
+            "placeholder": "List possible root causes...",
+            "style": { "width": "100%", "marginTop": "10px" }
+          }
+        ]
+      },
+      {
+        "title": "Resolution",
+        "style": {
+          "backgroundColor": "#1d69bf",
+          "color": "#fff",
+          "fontWeight": "bold",
+          "padding": "10px",
+          "marginTop": "20px",
+          "borderRadius": "6px 6px 0 0"
+        },
+        "fields": [
+          {
+            "label": "Corrections/Corrective Action/Preventive Actions",
+            "type": "textarea",
+            "key": "correctiveAction",
+            "placeholder": "Describe corrections or preventive actions...",
+            "style": { "width": "100%", "marginTop": "10px" }
+          },
+          {
+            "group": true,
+            "layout": "horizontal",
+            "fields": [
+              {
+                "label": "Investigation Performed By",
+                "type": "text",
+                "key": "investigationBy",
+                "placeholder": "Enter investigator name...",
+                "style": { "width": "100%", "marginTop": "10px" }
+              },
+              {
+                "label": "Title, Signature & Date",
+                "type": "text",
+                "key": "titleSignatureDate",
+                "placeholder": "Enter title, signature, and date...",
+                "style": { "width": "100%", "marginTop": "10px" }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Deviation Closure",
+        "style": {
+          "backgroundColor": "#1d69bf",
+          "color": "#fff",
+          "fontWeight": "bold",
+          "padding": "10px",
+          "marginTop": "20px",
+          "borderRadius": "6px 6px 0 0"
+        },
+        "fields": [
+          {
+            "label": "Deviation Closure",
+            "type": "textarea",
+            "key": "deviationClosure",
+            "placeholder": "Enter deviation closure details...",
+            "style": { "width": "100%", "marginTop": "10px" }
+          }
+        ]
+      },
+      {
+        "title": "Post Approvals",
+        
+        "table": {
+          "columns": [
+            { "header": "Name & Title", "key": "name", "type": "text" },
+            { "header": "Role", "key": "role", "type": "text" },
+            { "header": "Signature & Date", "key": "signature", "type": "button", "label": "Signature" }
+          ],
+          "rows": [
+            { "name": "Department Head", "role": "CEO", "signature": "" },
+            { "name": "QA Manager", "role": "Manager", "signature": "" },
+            { "name": "QA Head", "role": "Head QA", "signature": "" }
+          ]
+        }
+      },
+      {
+        "title": "Revision History",
+        "style": {
+          "backgroundColor": "#1d69bf",
+          "color": "#fff",
+          "fontWeight": "bold",
+          "padding": "10px",
+          "marginTop": "20px",
+          "borderRadius": "6px 6px 0 0"
+        },
+        "table": {
+          "columns": [
+            { "header": "Version", "key": "revisionVersion", "type": "text" },
+            { "header": "Date", "key": "revisionDate", "type": "date" },
+            { "header": "Author", "key": "revisionAuthor", "type": "text" },
+            { "header": "Revision Description", "key": "revisionDescription", "type": "text" }
+          ],
+          "rows": [
+            {
+              "revisionVersion": "1.0",
+              "revisionDate": "2025-11-04",
+              "revisionAuthor": "Mounika",
+              "revisionDescription": "Initial draft."
+            }
+          ]
+        }
+      }
+    ]
+  }

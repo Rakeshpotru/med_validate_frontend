@@ -1,0 +1,35 @@
+{
+  "question_id": "Q11",
+  "type": "table",
+  "columns": [
+    { "column_name": "Name & Title", "data_type": "text"},
+    { "column_name": "Role", "data_type": "text" },
+    { "column_name": "Signature & Date", "data_type": "button" }
+  ],
+  "rows": [
+    {
+      "row_id": "R1",
+      "cells": [
+        { "column_id": "C1", "value": "Department Head" },
+        { "column_id": "C2", "value": "CEO" },
+        { "column_id": "C3", "value": { "label": "Signature", "type": "button" } }
+      ]
+    },
+    {
+      "row_id": "R2",
+      "cells": [
+        { "column_id": "C1", "value": "QA Manager" },
+        { "column_id": "C2", "value": "Manager" },
+        { "column_id": "C3", "value": { "label": "Signature", "type": "button" } }
+      ]
+    },
+    {
+      "row_id": "R3",
+      "cells": [
+        { "column_id": "C1","type": "button", "value": "QA Head" },
+        { "column_id": "C2","type": "button", "value": "Head QA" },
+        { "column_id": "C3", "value": { "label": "Signature", "type": "button" } }
+      ]
+    }
+  ]
+}

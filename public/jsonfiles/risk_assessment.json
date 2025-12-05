@@ -1,0 +1,220 @@
+{
+    "template": {
+        "template_id": "RAC001",
+        "template_name": "Regulatory Applicability and Configuration Complexity Assessment",
+        "type": "weightage_table",
+        "description": "Assessment to determine regulatory applicability and configuration complexity with weighted Yes/No responses.",
+        "columns": [
+            {
+                "header": "No."
+            },
+            {
+                "header": "Questions"
+            },
+            {
+                "header": "No"
+            },
+            {
+                "header": "Yes"
+            }
+        ],
+        "rows": [
+            {
+                "no": 11,
+                "question": "Is this system used to support communication or the transfer of data to a regulatory body?",
+                "options": [
+                    {
+                        "option": "No",
+                        "weight": 0
+                    },
+                    {
+                        "option": "Yes",
+                        "weight": 10
+                    }
+                ]
+            },
+            {
+                "no": 12,
+                "question": "Does the system create, hold or manage employee training records related to regulated activities?",
+                "options": [
+                    {
+                        "option": "No",
+                        "weight": 0
+                    },
+                    {
+                        "option": "Yes",
+                        "weight": 10
+                    }
+                ]
+            },
+            {
+                "no": 13,
+                "question": "Is the system used to format and prepare regulatory submissions or to transmit regulatory data?",
+                "options": [
+                    {
+                        "option": "No",
+                        "weight": 0
+                    },
+                    {
+                        "option": "Yes",
+                        "weight": 10
+                    }
+                ]
+            },
+            {
+                "no": 14,
+                "question": "Is the system used for viewing or creating reports that include regulated data?",
+                "options": [
+                    {
+                        "option": "No",
+                        "weight": 0
+                    },
+                    {
+                        "option": "Yes",
+                        "weight": 5
+                    }
+                ]
+            },
+            {
+                "no": 15,
+                "question": "Is the system used in support of a regulated business process but does not generate or modify records that are required to be maintained under regulations?",
+                "options": [
+                    {
+                        "option": "No",
+                        "weight": 0
+                    },
+                    {
+                        "option": "Yes",
+                        "weight": 5
+                    }
+                ]
+            },
+            {
+                "no": 16,
+                "question": "Does the user have the ability to configure access levels?",
+                "options": [
+                    {
+                        "option": "No",
+                        "weight": 0
+                    },
+                    {
+                        "option": "Yes",
+                        "weight": 30
+                    }
+                ]
+            },
+            {
+                "no": 17,
+                "question": "Does the user have the ability to configure workflows by scripting (e.g., automated actions)?",
+                "options": [
+                    {
+                        "option": "No",
+                        "weight": 0
+                    },
+                    {
+                        "option": "Yes",
+                        "weight": 20
+                    }
+                ]
+            },
+            {
+                "no": 18,
+                "question": "Does the user have the ability to configure workflows using non-scripting methods?",
+                "options": [
+                    {
+                        "option": "No",
+                        "weight": 0
+                    },
+                    {
+                        "option": "Yes",
+                        "weight": 20
+                    }
+                ]
+            },
+            {
+                "no": 19,
+                "question": "Does the user have the ability to configure audit trail parameters or ERES?",
+                "options": [
+                    {
+                        "option": "No",
+                        "weight": 0
+                    },
+                    {
+                        "option": "Yes",
+                        "weight": 30
+                    }
+                ]
+            },
+            {
+                "no": 20,
+                "question": "Does the user have the ability to create calculations or data analytics that are GxP process impacting or would impact regulatory reporting?",
+                "options": [
+                    {
+                        "option": "No",
+                        "weight": 0
+                    },
+                    {
+                        "option": "Yes",
+                        "weight": 30
+                    }
+                ]
+            },
+            {
+                "no": 21,
+                "question": "Does the user have the ability to create non-GxP related calculations in the system?",
+                "options": [
+                    {
+                        "option": "No",
+                        "weight": 0
+                    },
+                    {
+                        "option": "Yes",
+                        "weight": 5
+                    }
+                ]
+            },
+            {
+                "no": 22,
+                "question": "Does the user have the ability to configure non-GxP related functions or workflows in the system?",
+                "options": [
+                    {
+                        "option": "No",
+                        "weight": 0
+                    },
+                    {
+                        "option": "Yes",
+                        "weight": 5
+                    }
+                ]
+            }
+        ],
+        "ranking": {
+            "criteria": [
+                {
+                    "range": {
+                        "min": 0,
+                        "max": 50
+                    },
+                    "rank": "Low Criticality",
+                    "description": "System is not complex and has limited regulatory impact."
+                },
+                {
+                    "range": {
+                        "min": 51,
+                        "max": 100
+                    },
+                    "rank": "Moderate Criticality",
+                    "description": "System has moderate configuration complexity and potential regulatory relevance."
+                },
+                {
+                    "range": {
+                        "min": 101,
+                        "max": 150
+                    },
+                    "rank": "High Criticality",
+                    "description": "System has significant configuration complexity and regulatory impact — validation required."
+                }
+            ]
+        }
+    }
+}

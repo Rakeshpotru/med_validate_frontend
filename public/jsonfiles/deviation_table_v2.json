@@ -1,0 +1,9 @@
+{
+  "question_id": "Q11",
+  "type": "table",
+  "columns": [
+    { "title": "Name & Title",  "type": "label", "values":["Department Head", "QA Manager", "QA Head" ]},
+	{ "title": "Role", "type": "label", "values":["CEO", "Manager", "Head QA" ]},
+	{ "title": "Signature & Date", "type": "button", "values":["Signature", "Signature", "Signature" ]}    
+  ]
+}

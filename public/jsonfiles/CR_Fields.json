@@ -1,0 +1,2674 @@
+{
+    "formTitle": "Quality Change Request (QCR) Form",
+    "sections": [
+        {
+            "title": "Summary",
+            "style": {
+                "backgroundColor": "#1d69bf",
+                "color": "#fff",
+                "fontWeight": "bold",
+                "padding": "10px",
+                "borderRadius": "6px 6px 0 0"
+            },
+            "fields": [
+                {
+                    "group": true,
+                    "layout": "horizontal",
+                    "fields": [
+                        {
+                            "label": "Request No.",
+                            "type": "text",
+                            "key": "requestNo",
+                            "value": "54570",
+                            "style": {
+                                "width": "48%"
+                            }
+                        },
+                        {
+                            "label": "Workflow",
+                            "type": "text",
+                            "key": "workflow",
+                            "value": "QCR",
+                            "style": {
+                                "width": "48%"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "group": true,
+                    "layout": "horizontal",
+                    "fields": [
+                        {
+                            "label": "Workflow Version",
+                            "type": "text",
+                            "key": "workflowVersion",
+                            "value": "QCR WF v13.1",
+                            "style": {
+                                "width": "48%"
+                            }
+                        },
+                        {
+                            "label": "Created On",
+                            "type": "date",
+                            "key": "createdOn",
+                            "value": "May 12, 2025",
+                            "style": {
+                                "width": "48%"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "group": true,
+                    "layout": "horizontal",
+                    "fields": [
+                        {
+                            "label": "Entered By",
+                            "type": "text",
+                            "key": "enteredBy",
+                            "value": "Arie Binghaman",
+                            "style": {
+                                "width": "48%"
+                            }
+                        },
+                        {
+                            "label": "Requested By",
+                            "type": "text",
+                            "key": "requestedBy",
+                            "value": "Arie Binghaman",
+                            "style": {
+                                "width": "48%"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "group": true,
+                    "layout": "horizontal",
+                    "fields": [
+                        {
+                            "label": "Request Owner",
+                            "type": "text",
+                            "key": "requestOwner",
+                            "value": "Binghaman",
+                            "style": {
+                                "width": "48%"
+                            }
+                        },
+                        {
+                            "label": "Request Status",
+                            "type": "text",
+                            "key": "requestStatus",
+                            "value": "Implementation",
+                            "style": {
+                                "width": "48%"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "label": "Title of Change",
+                    "type": "textarea",
+                    "key": "titleOfChange",
+                    "value": "Installation and Qualification of NanoRam 1064 Handheld Raman Spectrometer and its respective data management software, NID EX for Tampa site.",
+                    "style": {
+                        "width": "100%",
+                        "marginTop": "10px"
+                    }
+                },
+                {
+                    "group": true,
+                    "layout": "horizontal",
+                    "fields": [
+                        {
+                            "label": "Review Board Site",
+                            "type": "text",
+                            "key": "reviewBoardSite",
+                            "value": "Tampa",
+                            "style": {
+                                "width": "48%"
+                            }
+                        },
+                        {
+                            "label": "Change Review Specialist",
+                            "type": "text",
+                            "key": "changeReviewSpecialist",
+                            "value": "ortizra",
+                            "style": {
+                                "width": "48%"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "label": "Line of Business",
+                    "type": "text",
+                    "key": "lineOfBusiness",
+                    "value": "NA Pharma/Lens Care",
+                    "style": {
+                        "width": "100%",
+                        "marginTop": "10px"
+                    }
+                },
+                {
+                    "group": true,
+                    "layout": "horizontal",
+                    "fields": [
+                        {
+                            "label": "Other Sites Impacted (Y/N)?",
+                            "type": "checkbox",
+                            "key": "otherSitesImpacted",
+                            "value": "No",
+                            "style": {
+                                "width": "48%"
+                            }
+                        },
+                        {
+                            "label": "List of Sites Impacted",
+                            "type": "text",
+                            "key": "listOfSitesImpacted",
+                            "value": "Tampa",
+                            "style": {
+                                "width": "48%"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "group": true,
+                    "layout": "horizontal",
+                    "fields": [
+                        {
+                            "label": "Source Record Type",
+                            "type": "text",
+                            "key": "sourceRecordType",
+                            "value": "",
+                            "style": {
+                                "width": "48%"
+                            }
+                        },
+                        {
+                            "label": "Source Record Number",
+                            "type": "text",
+                            "key": "sourceRecordNumber",
+                            "value": "",
+                            "style": {
+                                "width": "48%"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Impact Details",
+            "style": {
+                "backgroundColor": "#1d69bf",
+                "color": "#fff",
+                "fontWeight": "bold",
+                "padding": "10px",
+                "marginTop": "20px",
+                "borderRadius": "6px 6px 0 0"
+            },
+            "fields": [
+                {
+                    "group": true,
+                    "layout": "horizontal",
+                    "fields": [
+                        {
+                            "label": "3rd Parties Impacted",
+                            "type": "text",
+                            "key": "thirdPartiesImpacted",
+                            "value": "",
+                            "style": {
+                                "width": "48%"
+                            }
+                        },
+                        {
+                            "label": "3rd Parties Impact Details",
+                            "type": "textarea",
+                            "key": "thirdPartiesImpactDetails",
+                            "value": "",
+                            "style": {
+                                "width": "48%"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "group": true,
+                    "layout": "horizontal",
+                    "fields": [
+                        {
+                            "label": "Change Requires Lot Hold (Y/N)",
+                            "type": "checkbox",
+                            "key": "changeRequiresLotHold",
+                            "value": "No",
+                            "style": {
+                                "width": "48%"
+                            }
+                        },
+                        {
+                            "label": "Lot Hold Details",
+                            "type": "textarea",
+                            "key": "lotHoldDetails",
+                            "value": "",
+                            "style": {
+                                "width": "48%"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "group": true,
+                    "layout": "horizontal",
+                    "fields": [
+                        {
+                            "label": "Process Impacted",
+                            "type": "text",
+                            "key": "processImpacted",
+                            "value": "None",
+                            "style": {
+                                "width": "48%"
+                            }
+                        },
+                        {
+                            "label": "Products Impacted",
+                            "type": "text",
+                            "key": "productsImpacted",
+                            "value": "None",
+                            "style": {
+                                "width": "48%"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "label": "Products Impacted (Additional Information)",
+                    "type": "textarea",
+                    "key": "productsImpactedAdditionalInfo",
+                    "value": "All Tampa products",
+                    "style": {
+                        "width": "100%",
+                        "marginTop": "10px"
+                    }
+                },
+                {
+                    "label": "Impacted Products",
+                    "type": "textarea",
+                    "key": "impactedProducts",
+                    "value": "030 - Sulfacetamide Sodium Ophthalmic Solution, 10%\n034 - Neomycin and Polymyxin B Sulfates and Gramicidin Ophthalmic Solution",
+                    "style": {
+                        "width": "100%",
+                        "marginTop": "10px"
+                    }
+                },
+                {
+                    "label": "Lots Potentially Affected",
+                    "type": "text",
+                    "key": "lotsPotentiallyAffected",
+                    "value": "N/A",
+                    "style": {
+                        "width": "100%",
+                        "marginTop": "10px"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Change Plan",
+            "style": {
+                "backgroundColor": "#1d69bf",
+                "color": "#fff",
+                "fontWeight": "bold",
+                "padding": "10px",
+                "marginTop": "20px",
+                "borderRadius": "6px 6px 0 0"
+            },
+            "fields": [
+                {
+                    "group": true,
+                    "layout": "horizontal",
+                    "fields": [
+                        {
+                            "label": "Date Change Plan Complete",
+                            "type": "date",
+                            "key": "dateChangePlanComplete",
+                            "value": "May 27, 2025",
+                            "style": {
+                                "width": "48%"
+                            }
+                        },
+                        {
+                            "label": "Initial Date Change Plan Complete",
+                            "type": "date",
+                            "key": "initialDateChangePlanComplete",
+                            "value": "May 27, 2025",
+                            "style": {
+                                "width": "48%"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "label": "Number of Iterations - CP Complete",
+                    "type": "text",
+                    "key": "numberOfIterationsCPComplete",
+                    "value": "1",
+                    "style": {
+                        "width": "100%",
+                        "marginTop": "10px"
+                    }
+                },
+                {
+                    "group": true,
+                    "layout": "horizontal",
+                    "fields": [
+                        {
+                            "label": "Date Change Plan Approved",
+                            "type": "date",
+                            "key": "dateChangePlanApproved",
+                            "value": "May 28, 2025",
+                            "style": {
+                                "width": "48%"
+                            }
+                        },
+                        {
+                            "label": "Initial Date Change Plan Approved",
+                            "type": "date",
+                            "key": "initialDateChangePlanApproved",
+                            "value": "May 28, 2025",
+                            "style": {
+                                "width": "48%"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "label": "Number of Iterations - CP Approved",
+                    "type": "text",
+                    "key": "numberOfIterationsCPApproved",
+                    "value": "1",
+                    "style": {
+                        "width": "100%",
+                        "marginTop": "10px"
+                    }
+                }
+            ],
+            "table": {
+                "columns": [
+                    {
+                        "header": "Seq",
+                        "key": "seq",
+                        "type": "text"
+                    },
+                    {
+                        "header": "Task Type",
+                        "key": "taskType",
+                        "type": "text"
+                    },
+                    {
+                        "header": "Description",
+                        "key": "description",
+                        "type": "textarea"
+                    },
+                    {
+                        "header": "Responsibility",
+                        "key": "responsibility",
+                        "type": "text"
+                    },
+                    {
+                        "header": "Target Date",
+                        "key": "targetDate",
+                        "type": "date"
+                    },
+                    {
+                        "header": "Task Status",
+                        "key": "taskStatus",
+                        "type": "text"
+                    },
+                    {
+                        "header": "Reference Record",
+                        "key": "referenceRecord",
+                        "type": "text"
+                    },
+                    {
+                        "header": "Reference",
+                        "key": "reference",
+                        "type": "text"
+                    }
+                ],
+                "rows": [
+                    {
+                        "seq": "11",
+                        "taskType": "Validation: Other",
+                        "description": "Execute Installation and Qualification protocols in accordance with Tampa Site SOP46-060. Attach approved protocol(s) and report(s)",
+                        "responsibility": "juareza",
+                        "targetDate": "September 30, 2025",
+                        "taskStatus": "Complete",
+                        "referenceRecord": "",
+                        "reference": ""
+                    },
+                    {
+                        "seq": "12",
+                        "taskType": "Preventive Maintenance",
+                        "description": "Confirm required hardware PMs were created in Maximo/BMRAM",
+                        "responsibility": "gracy1",
+                        "targetDate": "July 31, 2025",
+                        "taskStatus": "Complete",
+                        "referenceRecord": "",
+                        "reference": ""
+                    },
+                    {
+                        "seq": "13",
+                        "taskType": "Validation: Other",
+                        "description": "Show active status for all users ITCR to add all Confirm PMs were created in Maximo and show active status",
+                        "responsibility": "gracy1",
+                        "targetDate": "September 30, 2025",
+                        "taskStatus": "Complete",
+                        "referenceRecord": "",
+                        "reference": ""
+                    },
+                    {
+                        "seq": "14",
+                        "taskType": "Preventive Maintenance",
+                        "description": "Confirm PMs were created in Maximo and show active status",
+                        "responsibility": "west1",
+                        "targetDate": "July 31, 2025",
+                        "taskStatus": "Complete",
+                        "referenceRecord": "",
+                        "reference": ""
+                    },
+                    {
+                        "seq": "15",
+                        "taskType": "Document Change/Creation",
+                        "description": "Create Raman Operating SOP",
+                        "responsibility": "gracy1",
+                        "targetDate": "September 30, 2025",
+                        "taskStatus": "Complete",
+                        "referenceRecord": "",
+                        "reference": ""
+                    }
+                ]
+            }
+        },
+        {
+            "title": "General Information",
+            "style": {
+                "backgroundColor": "#1d69bf",
+                "color": "#fff",
+                "fontWeight": "bold",
+                "padding": "10px",
+                "marginTop": "20px",
+                "borderRadius": "6px 6px 0 0"
+            },
+            "fields": [
+                {
+                    "group": true,
+                    "layout": "horizontal",
+                    "fields": [
+                        {
+                            "label": "List of Sites Impacted",
+                            "type": "text",
+                            "key": "generalListOfSitesImpacted",
+                            "value": "Tampa",
+                            "style": {
+                                "width": "48%"
+                            }
+                        },
+                        {
+                            "label": "Source Record Type",
+                            "type": "text",
+                            "key": "generalSourceRecordType",
+                            "value": "Other",
+                            "style": {
+                                "width": "48%"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "group": true,
+                    "layout": "horizontal",
+                    "fields": [
+                        {
+                            "label": "Source Record Number",
+                            "type": "text",
+                            "key": "generalSourceRecordNumber",
+                            "value": "",
+                            "style": {
+                                "width": "48%"
+                            }
+                        },
+                        {
+                            "label": "Source Record URL",
+                            "type": "text",
+                            "key": "sourceRecordURL",
+                            "value": "",
+                            "style": {
+                                "width": "48%"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "group": true,
+                    "layout": "horizontal",
+                    "fields": [
+                        {
+                            "label": "Reason for Change",
+                            "type": "text",
+                            "key": "reasonForChange",
+                            "value": "Quality System Improvement",
+                            "style": {
+                                "width": "48%"
+                            }
+                        },
+                        {
+                            "label": "Type of Change",
+                            "type": "text",
+                            "key": "typeOfChange",
+                            "value": "Software; Equipment/Facility",
+                            "style": {
+                                "width": "48%"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "group": true,
+                    "layout": "horizontal",
+                    "fields": [
+                        {
+                            "label": "Change Implementation Manager",
+                            "type": "text",
+                            "key": "changeImplementationManager",
+                            "value": "Arie Binghaman",
+                            "style": {
+                                "width": "48%"
+                            }
+                        },
+                        {
+                            "label": "Priority",
+                            "type": "text",
+                            "key": "priority",
+                            "value": "20 - Normal",
+                            "style": {
+                                "width": "48%"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "group": true,
+                    "layout": "horizontal",
+                    "fields": [
+                        {
+                            "label": "Date Submitted",
+                            "type": "date",
+                            "key": "dateSubmitted",
+                            "value": "May 19, 2025",
+                            "style": {
+                                "width": "48%"
+                            }
+                        },
+                        {
+                            "label": "Number of Iterations - Submit",
+                            "type": "text",
+                            "key": "numberOfIterationsSubmit",
+                            "value": "1",
+                            "style": {
+                                "width": "48%"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "label": "Initial Date Submitted",
+                    "type": "date",
+                    "key": "initialDateSubmitted",
+                    "value": "May 19, 2025",
+                    "style": {
+                        "width": "100%",
+                        "marginTop": "10px"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Description of Change",
+            "style": {
+                "backgroundColor": "#1d69bf",
+                "color": "#fff",
+                "fontWeight": "bold",
+                "padding": "10px",
+                "marginTop": "20px",
+                "borderRadius": "6px 6px 0 0"
+            },
+            "fields": [
+                {
+                    "label": "Description",
+                    "type": "textarea",
+                    "key": "descriptionOfChange",
+                    "value": "Installation and Qualification of three NanoRam 1064 handheld spectrometer units, its operating system NOS-1064, and its respective data management software, NID EX for Tampa site.\n\nThis change includes the installation and qualification of three NanoRam 1064 units, the operating system NOS-1064 and data management software, NID EX. The new Raman spectrometer units operational under its own operating software, NOS-1064 with data management software, NID EX. The new units will be utilized by IQ for ID testing of applicable packaging components and raw materials used in Tampa manufacturing facility. This chemical ID testing offers time reduction and cost savings to the Tampa site with respect to lab testing time, while maintaining data integrity for a robust system platform in product testing. The new units will be utilized by IQ for ID testing of LIMS Paperless Lab packaging project components and raw materials. This implementation effort supports the CORE 2.0 LIMS Paperless Lab project.",
+                    "style": {
+                        "width": "100%",
+                        "marginTop": "10px"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Regulatory Review",
+            "style": {
+                "backgroundColor": "#1d69bf",
+                "color": "#fff",
+                "fontWeight": "bold",
+                "padding": "10px",
+                "marginTop": "20px",
+                "borderRadius": "6px 6px 0 0"
+            },
+            "fields": [
+                {
+                    "group": true,
+                    "layout": "horizontal",
+                    "fields": [
+                        {
+                            "label": "Initial Date Regulatory Review Completed",
+                            "type": "date",
+                            "key": "initialDateRegulatoryReviewCompleted",
+                            "value": "May 22, 2025",
+                            "style": {
+                                "width": "48%"
+                            }
+                        },
+                        {
+                            "label": "Number of Iterations - Regulatory",
+                            "type": "text",
+                            "key": "numberOfIterationsRegulatory",
+                            "value": "1",
+                            "style": {
+                                "width": "48%"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "group": true,
+                    "layout": "horizontal",
+                    "fields": [
+                        {
+                            "label": "Does Implementation Require Regulatory Actions (Y/N)?",
+                            "type": "checkbox",
+                            "key": "doesImplementationRequireRegulatoryActions",
+                            "value": "No",
+                            "style": {
+                                "width": "48%"
+                            }
+                        },
+                        {
+                            "label": "Notified Bodies Update Required (Y/N)?",
+                            "type": "checkbox",
+                            "key": "notifiedBodiesUpdateRequired",
+                            "value": "No",
+                            "style": {
+                                "width": "48%"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "label": "Countries Requiring Approvals",
+                    "type": "text",
+                    "key": "countriesRequiringApprovals",
+                    "value": "",
+                    "style": {
+                        "width": "100%",
+                        "marginTop": "10px"
+                    }
+                },
+                {
+                    "label": "Countries Requiring Notifications",
+                    "type": "text",
+                    "key": "countriesRequiringNotifications",
+                    "value": "",
+                    "style": {
+                        "width": "100%",
+                        "marginTop": "10px"
+                    }
+                },
+                {
+                    "label": "Additional Impact Information",
+                    "type": "textarea",
+                    "key": "additionalImpactInformation",
+                    "value": "CMC-US, ROW and Canada- There is no regulatory action for completion of IQOQ activities. As stated in description of changes, the updates to product specifications and associated test methods will be managed under separate QCR(s). Thus, the IQOQ activities impact. As stated in description of changes, the updates to material specifications and methods to test via the Raman Spectrometer will be assessed under these subsequent QCRs.",
+                    "style": {
+                        "width": "100%",
+                        "marginTop": "10px"
+                    }
+                },
+                {
+                    "label": "Date Regulatory Review Completed",
+                    "type": "date",
+                    "key": "dateRegulatoryReviewCompleted",
+                    "value": "May 22, 2025",
+                    "style": {
+                        "width": "100%",
+                        "marginTop": "10px"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "LCB Disposition",
+            "style": {
+                "backgroundColor": "#1d69bf",
+                "color": "#fff",
+                "fontWeight": "bold",
+                "padding": "10px",
+                "marginTop": "20px",
+                "borderRadius": "6px 6px 0 0"
+            },
+            "fields": [
+                {
+                    "label": "Approval Signatories (Name)",
+                    "type": "text",
+                    "key": "approvalSignatoriesName",
+                    "value": "ortizra",
+                    "style": {
+                        "width": "100%",
+                        "marginTop": "10px"
+                    }
+                },
+                {
+                    "label": "Approval Performed by (Role)",
+                    "type": "text",
+                    "key": "approvalPerformedByRole",
+                    "value": "Change Review Specialist",
+                    "style": {
+                        "width": "100%",
+                        "marginTop": "10px"
+                    }
+                },
+                {
+                    "label": "Elevate to COC/BUCB (Y/N)?",
+                    "type": "checkbox",
+                    "key": "elevateToCOCBUCB",
+                    "value": "No",
+                    "style": {
+                        "width": "100%",
+                        "marginTop": "10px"
+                    }
+                },
+                {
+                    "label": "Applicable Elevation Criteria",
+                    "type": "textarea",
+                    "key": "applicableElevationCriteria",
+                    "value": "",
+                    "style": {
+                        "width": "100%",
+                        "marginTop": "10px"
+                    }
+                },
+                {
+                    "label": "Link to Cost Analysis Spreadsheets",
+                    "type": "text",
+                    "key": "linkToCostAnalysisSpreadsheets",
+                    "value": "ftp://swedappkyn01.blamericas.bausch.com/cost...",
+                    "style": {
+                        "width": "100%",
+                        "marginTop": "10px"
+                    }
+                },
+                {
+                    "label": "Attach Cost Analysis",
+                    "type": "text",
+                    "key": "attachCostAnalysis",
+                    "value": "(No Document Attached)",
+                    "style": {
+                        "width": "100%",
+                        "marginTop": "10px"
+                    }
+                },
+                {
+                    "label": "QCR Approval/Rejection Comments",
+                    "type": "textarea",
+                    "key": "qcrApprovalRejectionComments",
+                    "value": "Presented to LCB on 5/21/25.",
+                    "style": {
+                        "width": "100%",
+                        "marginTop": "10px"
+                    }
+                },
+                {
+                    "group": true,
+                    "layout": "horizontal",
+                    "fields": [
+                        {
+                            "label": "Date Approved by LCB",
+                            "type": "date",
+                            "key": "dateApprovedByLCB",
+                            "value": "May 27, 2025",
+                            "style": {
+                                "width": "48%"
+                            }
+                        },
+                        {
+                            "label": "Initial Date Approved by LCB",
+                            "type": "date",
+                            "key": "initialDateApprovedByLCB",
+                            "value": "May 27, 2025",
+                            "style": {
+                                "width": "48%"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "label": "Number of Iterations - LCB",
+                    "type": "text",
+                    "key": "numberOfIterationsLCB",
+                    "value": "1",
+                    "style": {
+                        "width": "100%",
+                        "marginTop": "10px"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "COC/BUCB Disposition",
+            "style": {
+                "backgroundColor": "#1d69bf",
+                "color": "#fff",
+                "fontWeight": "bold",
+                "padding": "10px",
+                "marginTop": "20px",
+                "borderRadius": "6px 6px 0 0"
+            },
+            "fields": [
+                {
+                    "label": "Communication from COC/BUCB",
+                    "type": "textarea",
+                    "key": "communicationFromCOCBUCB",
+                    "value": "",
+                    "style": {
+                        "width": "100%",
+                        "marginTop": "10px"
+                    }
+                },
+                {
+                    "group": true,
+                    "layout": "horizontal",
+                    "fields": [
+                        {
+                            "label": "Date Approved by COC/BUCB",
+                            "type": "date",
+                            "key": "dateApprovedByCOCBUCB",
+                            "value": "",
+                            "style": {
+                                "width": "48%"
+                            }
+                        },
+                        {
+                            "label": "Initial Date Approved by COC/BUCB",
+                            "type": "date",
+                            "key": "initialDateApprovedByCOCBUCB",
+                            "value": "",
+                            "style": {
+                                "width": "48%"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "label": "Number of Iterations - COC/BUCB",
+                    "type": "text",
+                    "key": "numberOfIterationsCOCBUCB",
+                    "value": "0",
+                    "style": {
+                        "width": "100%",
+                        "marginTop": "10px"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Develop Change Plan",
+            "style": {
+                "backgroundColor": "#1d69bf",
+                "color": "#fff",
+                "fontWeight": "bold",
+                "padding": "10px",
+                "marginTop": "20px",
+                "borderRadius": "6px 6px 0 0"
+            },
+            "fields": [
+                {
+                    "label": "Change Plan Team Members",
+                    "type": "text",
+                    "key": "changePlanTeamMembers",
+                    "value": "",
+                    "style": {
+                        "width": "100%",
+                        "marginTop": "10px"
+                    }
+                },
+                {
+                    "label": "Effectiveness Check Required (Y/N)?",
+                    "type": "checkbox",
+                    "key": "effectivenessCheckRequired",
+                    "value": "No",
+                    "style": {
+                        "width": "100%",
+                        "marginTop": "10px"
+                    }
+                },
+                {
+                    "label": "Justification for No Effectiveness Check",
+                    "type": "textarea",
+                    "key": "justificationForNoEffectivenessCheck",
+                    "value": "Successful completion of qualification activities and approved final report for the three NanoRam 1064 handheld Raman spectrometer units and associated software.",
+                    "style": {
+                        "width": "100%",
+                        "marginTop": "10px"
+                    }
+                },
+                {
+                    "label": "Effectiveness Criteria",
+                    "type": "textarea",
+                    "key": "effectivenessCriteria",
+                    "value": "Successful completion of qualification activities and change plan items for release of instrument and software.",
+                    "style": {
+                        "width": "100%",
+                        "marginTop": "10px"
+                    }
+                },
+                {
+                    "label": "Plan Approval Signatories",
+                    "type": "text",
+                    "key": "planApprovalSignatories",
+                    "value": "gracy1; wong2; primele",
+                    "style": {
+                        "width": "100%",
+                        "marginTop": "10px"
+                    }
+                },
+                {
+                    "label": "Quality Plan Approval Signatories",
+                    "type": "text",
+                    "key": "qualityPlanApprovalSignatories",
+                    "value": "navedot",
+                    "style": {
+                        "width": "100%",
+                        "marginTop": "10px"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Impact and Justification Summary",
+            "style": {
+                "backgroundColor": "#1d69bf",
+                "color": "#fff",
+                "fontWeight": "bold",
+                "padding": "10px",
+                "marginTop": "20px",
+                "borderRadius": "6px 6px 0 0"
+            },
+            "fields": [
+                {
+                    "label": "Impact",
+                    "type": "textarea",
+                    "key": "impact",
+                    "value": "This change is to install and qualify three NanoRam 1064-handheld Raman spectrometers, the unit's operating system NOS 1064 and the data management software NID EX, at Tampa site, this change will occur in IQ area where the Raman spectrometers are used in manufacturing. Alternative ID testing for applicable packaging components and raw materials to be tested. The Regulatory Impact on ID test methods will be developed and validated associated test methods will be assessed and managed under separate QCR(s). The qualification of the NanoRam 1064 units will not be conducted by IR. New SOPs/WIs for operational shutdown and will have no impact to the current QC Chemistry lab testing for ID applicable documentation procedures.",
+                    "style": {
+                        "width": "100%",
+                        "marginTop": "10px"
+                    }
+                },
+                {
+                    "label": "Justification",
+                    "type": "textarea",
+                    "key": "justification",
+                    "value": "The implementation of the Raman system: NanoRam 1064 units and NID EX data management software as the first system of its kind at B&L Tampa site, provide alternative chemical ID testing for applicable packaging components and raw materials with cost savings attached. To IQOQ lab testing once the NanoRam 1064 and associated software are installed and qualified, the system is to be utilized along with existing FTIR instrument for ID testing. Both the Raman system and FTIR instruments, in accordance, will fully functional and operational to support ID testing for raw materials and packaging components with their respective specifications.",
+                    "style": {
+                        "width": "100%",
+                        "marginTop": "10px"
+                    }
+                },
+                {
+                    "label": "Cost and Resource Estimates of Change",
+                    "type": "text",
+                    "key": "costAndResourceEstimatesOfChange",
+                    "value": "NA",
+                    "style": {
+                        "width": "100%",
+                        "marginTop": "10px"
+                    }
+                },
+                {
+                    "group": true,
+                    "layout": "horizontal",
+                    "fields": [
+                        {
+                            "label": "Limited Duration Change (Y/N)",
+                            "type": "checkbox",
+                            "key": "limitedDurationChange",
+                            "value": "No",
+                            "style": {
+                                "width": "48%"
+                            }
+                        },
+                        {
+                            "label": "Planned Duration Expiry",
+                            "type": "date",
+                            "key": "plannedDurationExpiry",
+                            "value": "",
+                            "style": {
+                                "width": "48%"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "group": true,
+                    "layout": "horizontal",
+                    "fields": [
+                        {
+                            "label": "Proposed Target Implementation Date",
+                            "type": "date",
+                            "key": "proposedTargetImplementationDate",
+                            "value": "November 28, 2025",
+                            "style": {
+                                "width": "48%"
+                            }
+                        },
+                        {
+                            "label": "Target Implementation Date",
+                            "type": "date",
+                            "key": "targetImplementationDate",
+                            "value": "November 28, 2025",
+                            "style": {
+                                "width": "48%"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "group": true,
+                    "layout": "horizontal",
+                    "fields": [
+                        {
+                            "label": "Target Closure Date",
+                            "type": "date",
+                            "key": "targetClosureDate",
+                            "value": "January 30, 2026",
+                            "style": {
+                                "width": "48%"
+                            }
+                        },
+                        {
+                            "label": "Document Change Only (Y/N)?",
+                            "type": "checkbox",
+                            "key": "documentChangeOnly",
+                            "value": "No",
+                            "style": {
+                                "width": "48%"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "group": true,
+                    "layout": "horizontal",
+                    "fields": [
+                        {
+                            "label": "Design Change (Y/N)",
+                            "type": "checkbox",
+                            "key": "designChange",
+                            "value": "No",
+                            "style": {
+                                "width": "48%"
+                            }
+                        },
+                        {
+                            "label": "New Permanent SKU (Y/N)?",
+                            "type": "checkbox",
+                            "key": "newPermanentSKU",
+                            "value": "No",
+                            "style": {
+                                "width": "48%"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "group": true,
+                    "layout": "horizontal",
+                    "fields": [
+                        {
+                            "label": "3rd Parties Impacted",
+                            "type": "text",
+                            "key": "impactThirdPartiesImpacted",
+                            "value": "",
+                            "style": {
+                                "width": "48%"
+                            }
+                        },
+                        {
+                            "label": "3rd Parties Impact Details",
+                            "type": "textarea",
+                            "key": "impactThirdPartiesImpactDetails",
+                            "value": "",
+                            "style": {
+                                "width": "48%"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "CRS Iterations",
+            "style": {
+                "backgroundColor": "#1d69bf",
+                "color": "#fff",
+                "fontWeight": "bold",
+                "padding": "10px",
+                "marginTop": "20px",
+                "borderRadius": "6px 6px 0 0"
+            },
+            "fields": [
+                {
+                    "label": "Number of Iterations - CRS",
+                    "type": "text",
+                    "key": "numberOfIterationsCRS",
+                    "value": "1",
+                    "style": {
+                        "width": "100%",
+                        "marginTop": "10px"
+                    }
+                },
+                {
+                    "label": "Initial Date Completed by Change Review Specialist",
+                    "type": "date",
+                    "key": "initialDateCompletedByChangeReviewSpecialist",
+                    "value": "May 21, 2025",
+                    "style": {
+                        "width": "100%",
+                        "marginTop": "10px"
+                    }
+                },
+                {
+                    "label": "Initial Target Implementation Date",
+                    "type": "date",
+                    "key": "initialTargetImplementationDate",
+                    "value": "November 28, 2025",
+                    "style": {
+                        "width": "100%",
+                        "marginTop": "10px"
+                    }
+                },
+                {
+                    "label": "Target Implementation Date Updated",
+                    "type": "date",
+                    "key": "targetImplementationDateUpdated",
+                    "value": "",
+                    "style": {
+                        "width": "100%",
+                        "marginTop": "10px"
+                    }
+                },
+                {
+                    "group": true,
+                    "layout": "horizontal",
+                    "fields": [
+                        {
+                            "label": "Does Implementation Require Regulatory Actions (Y/N)?",
+                            "type": "checkbox",
+                            "key": "crsDoesImplementationRequireRegulatoryActions",
+                            "value": "No",
+                            "style": {
+                                "width": "48%"
+                            }
+                        },
+                        {
+                            "label": "Notified Bodies Update Required (Y/N)?",
+                            "type": "checkbox",
+                            "key": "crsNotifiedBodiesUpdateRequired",
+                            "value": "No",
+                            "style": {
+                                "width": "48%"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Considerations",
+            "style": {
+                "backgroundColor": "#1d69bf",
+                "color": "#fff",
+                "fontWeight": "bold",
+                "padding": "10px",
+                "marginTop": "20px",
+                "borderRadius": "6px 6px 0 0"
+            },
+            "table": {
+                "columns": [
+                    {
+                        "header": "Seq",
+                        "key": "seq",
+                        "type": "text"
+                    },
+                    {
+                        "header": "Consideration",
+                        "key": "consideration",
+                        "type": "text"
+                    },
+                    {
+                        "header": "Description",
+                        "key": "description",
+                        "type": "textarea"
+                    },
+                    {
+                        "header": "Cost/Benefit",
+                        "key": "costBenefit",
+                        "type": "text"
+                    }
+                ],
+                "rows": [
+                    {
+                        "seq": "1",
+                        "consideration": "Other",
+                        "description": "Does the change need to be before the next batch is manufactured?",
+                        "costBenefit": "NO"
+                    },
+                    {
+                        "seq": "2",
+                        "consideration": "Other",
+                        "description": "Document related updates required?",
+                        "costBenefit": "Yes-refer to change plan"
+                    },
+                    {
+                        "seq": "3",
+                        "consideration": "Other",
+                        "description": "Obsolete/related documents required?",
+                        "costBenefit": "NO"
+                    },
+                    {
+                        "seq": "4",
+                        "consideration": "Other",
+                        "description": "Quality Hold or SIQ Hold Request required?",
+                        "costBenefit": "No"
+                    },
+                    {
+                        "seq": "5",
+                        "consideration": "Sterilization (product or component)",
+                        "description": "New or re-configured sterile component?",
+                        "costBenefit": "No"
+                    }
+                ]
+            },
+            "fields": [
+                {
+                    "label": "Change Plan Draft Required (Y/N)?",
+                    "type": "checkbox",
+                    "key": "changePlanDraftRequired",
+                    "value": "No",
+                    "style": {
+                        "width": "100%",
+                        "marginTop": "10px"
+                    }
+                },
+                {
+                    "group": true,
+                    "layout": "horizontal",
+                    "fields": [
+                        {
+                            "label": "Regulatory Review Assigned to (Name)",
+                            "type": "text",
+                            "key": "regulatoryReviewAssignedToName",
+                            "value": "daviskm",
+                            "style": {
+                                "width": "48%"
+                            }
+                        },
+                        {
+                            "label": "Regulatory Review to be Performed by (Role)",
+                            "type": "text",
+                            "key": "regulatoryReviewToBePerformedByRole",
+                            "value": "Regulatory",
+                            "style": {
+                                "width": "48%"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "label": "Review by Local Change Board (Y/N)?",
+                    "type": "checkbox",
+                    "key": "reviewByLocalChangeBoard",
+                    "value": "Yes",
+                    "style": {
+                        "width": "100%",
+                        "marginTop": "10px"
+                    }
+                },
+                {
+                    "label": "Date Completed by Change Review Specialist",
+                    "type": "date",
+                    "key": "dateCompletedByChangeReviewSpecialist",
+                    "value": "May 21, 2025",
+                    "style": {
+                        "width": "100%",
+                        "marginTop": "10px"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Attachments",
+            "style": {
+                "backgroundColor": "#1d69bf",
+                "color": "#fff",
+                "fontWeight": "bold",
+                "padding": "10px",
+                "marginTop": "20px",
+                "borderRadius": "6px 6px 0 0"
+            },
+            "table": {
+                "columns": [
+                    {
+                        "header": "Name",
+                        "key": "name",
+                        "type": "text"
+                    },
+                    {
+                        "header": "Key Words",
+                        "key": "keyWords",
+                        "type": "text"
+                    },
+                    {
+                        "header": "Version",
+                        "key": "version",
+                        "type": "text"
+                    },
+                    {
+                        "header": "Size",
+                        "key": "size",
+                        "type": "text"
+                    },
+                    {
+                        "header": "Author",
+                        "key": "author",
+                        "type": "text"
+                    },
+                    {
+                        "header": "Checked out By",
+                        "key": "checkedOutBy",
+                        "type": "text"
+                    },
+                    {
+                        "header": "Last Checked In By",
+                        "key": "lastCheckedInBy",
+                        "type": "text"
+                    },
+                    {
+                        "header": "Check In Date",
+                        "key": "checkInDate",
+                        "type": "date"
+                    }
+                ],
+                "rows": [
+                    {
+                        "name": "AUG2025-1 Effective 12.pdf",
+                        "keyWords": "",
+                        "version": "1",
+                        "size": "544 KB",
+                        "author": "Arie Binghaman",
+                        "checkedOutBy": "-",
+                        "lastCheckedInBy": "Arie Binghaman",
+                        "checkInDate": "8/14/25"
+                    },
+                    {
+                        "name": "SOP73.pdf",
+                        "keyWords": "",
+                        "version": "1",
+                        "size": "64 KB",
+                        "author": "Arie Binghaman",
+                        "checkedOutBy": "-",
+                        "lastCheckedInBy": "Arie Binghaman",
+                        "checkInDate": "8/14/25"
+                    },
+                    {
+                        "name": "NanoRam Server Application.pdf",
+                        "keyWords": "",
+                        "version": "1",
+                        "size": "50 KB",
+                        "author": "Ferdinand Liard",
+                        "checkedOutBy": "-",
+                        "lastCheckedInBy": "Ferdinand Liard",
+                        "checkInDate": "8/15/25"
+                    },
+                    {
+                        "name": "SC-002-02.pdf",
+                        "keyWords": "",
+                        "version": "1",
+                        "size": "507 KB",
+                        "author": "Ferdinand Liard",
+                        "checkedOutBy": "-",
+                        "lastCheckedInBy": "Ferdinand Liard",
+                        "checkInDate": "8/15/25"
+                    },
+                    {
+                        "name": "824-GX-00.pdf",
+                        "keyWords": "",
+                        "version": "1",
+                        "size": "539 KB",
+                        "author": "Ferdinand Liard",
+                        "checkedOutBy": "-",
+                        "lastCheckedInBy": "Ferdinand Liard",
+                        "checkInDate": "8/15/25"
+                    },
+                    {
+                        "name": "824-V-00.pdf",
+                        "keyWords": "",
+                        "version": "1",
+                        "size": "534 KB",
+                        "author": "Ferdinand Liard",
+                        "checkedOutBy": "-",
+                        "lastCheckedInBy": "Ferdinand Liard",
+                        "checkInDate": "8/15/25"
+                    },
+                    {
+                        "name": "824-V-Added Comments.pdf",
+                        "keyWords": "",
+                        "version": "1",
+                        "size": "536 KB",
+                        "author": "Arie Binghaman",
+                        "checkedOutBy": "-",
+                        "lastCheckedInBy": "Arie Binghaman",
+                        "checkInDate": "8/15/25"
+                    },
+                    {
+                        "name": "824-V-00.pdf",
+                        "keyWords": "",
+                        "version": "1",
+                        "size": "510 KB",
+                        "author": "Arie Binghaman",
+                        "checkedOutBy": "",
+                        "lastCheckedInBy": "Arie Binghaman",
+                        "checkInDate": "8/11/25"
+                    },
+                    {
+                        "name": "824-V-00A.pdf",
+                        "keyWords": "",
+                        "version": "1",
+                        "size": "530 KB",
+                        "author": "Arie Binghaman",
+                        "checkedOutBy": "",
+                        "lastCheckedInBy": "Arie Binghaman",
+                        "checkInDate": "8/11/25"
+                    },
+                    {
+                        "name": "824-CS-00.pdf",
+                        "keyWords": "",
+                        "version": "1",
+                        "size": "1 MB",
+                        "author": "Arie Binghaman",
+                        "checkedOutBy": "",
+                        "lastCheckedInBy": "Arie Binghaman",
+                        "checkInDate": "8/11/25"
+                    },
+                    {
+                        "name": "824-DIR-.pdf",
+                        "keyWords": "Approved",
+                        "version": "1",
+                        "size": "3 MB",
+                        "author": "Arie Binghaman",
+                        "checkedOutBy": "",
+                        "lastCheckedInBy": "Arie Binghaman",
+                        "checkInDate": "8/11/25"
+                    },
+                    {
+                        "name": "824-DIR-01.pdf",
+                        "keyWords": "",
+                        "version": "1",
+                        "size": "1 MB",
+                        "author": "Arie Binghaman",
+                        "checkedOutBy": "",
+                        "lastCheckedInBy": "Arie Binghaman",
+                        "checkInDate": "8/11/25"
+                    },
+                    {
+                        "name": "824-GX-00.pdf",
+                        "keyWords": "",
+                        "version": "1",
+                        "size": "339 KB",
+                        "author": "Arie Binghaman",
+                        "checkedOutBy": "",
+                        "lastCheckedInBy": "Arie Binghaman",
+                        "checkInDate": "8/11/25"
+                    },
+                    {
+                        "name": "824-GX-01.pdf",
+                        "keyWords": "",
+                        "version": "1",
+                        "size": "349 KB",
+                        "author": "Arie Binghaman",
+                        "checkedOutBy": "",
+                        "lastCheckedInBy": "Arie Binghaman",
+                        "checkInDate": "8/11/25"
+                    },
+                    {
+                        "name": "824-PD-00.pdf",
+                        "keyWords": "",
+                        "version": "1",
+                        "size": "513 KB",
+                        "author": "Arie Binghaman",
+                        "checkedOutBy": "",
+                        "lastCheckedInBy": "Arie Binghaman",
+                        "checkInDate": "8/11/25"
+                    },
+                    {
+                        "name": "824-RA-00 Approved.pdf",
+                        "keyWords": "",
+                        "version": "1",
+                        "size": "1 MB",
+                        "author": "Arie Binghaman",
+                        "checkedOutBy": "",
+                        "lastCheckedInBy": "Arie Binghaman",
+                        "checkInDate": "8/11/25"
+                    },
+                    {
+                        "name": "824-RRA-00.pdf",
+                        "keyWords": "",
+                        "version": "1",
+                        "size": "441 KB",
+                        "author": "Arie Binghaman",
+                        "checkedOutBy": "",
+                        "lastCheckedInBy": "Arie Binghaman",
+                        "checkInDate": "8/11/25"
+                    },
+                    {
+                        "name": "824-RRA-01.pdf",
+                        "keyWords": "",
+                        "version": "1",
+                        "size": "704 KB",
+                        "author": "Arie Binghaman",
+                        "checkedOutBy": "",
+                        "lastCheckedInBy": "Arie Binghaman",
+                        "checkInDate": "8/11/25"
+                    },
+                    {
+                        "name": "824-RRA-02.pdf",
+                        "keyWords": "",
+                        "version": "1",
+                        "size": "572 KB",
+                        "author": "Arie Binghaman",
+                        "checkedOutBy": "",
+                        "lastCheckedInBy": "Arie Binghaman",
+                        "checkInDate": "8/11/25"
+                    },
+                    {
+                        "name": "824-SB-00.pdf",
+                        "keyWords": "",
+                        "version": "1",
+                        "size": "150 KB",
+                        "author": "Arie Binghaman",
+                        "checkedOutBy": "",
+                        "lastCheckedInBy": "Arie Binghaman",
+                        "checkInDate": "8/11/25"
+                    },
+                    {
+                        "name": "824-SB-01.pdf",
+                        "keyWords": "",
+                        "version": "1",
+                        "size": "175 KB",
+                        "author": "Arie Binghaman",
+                        "checkedOutBy": "",
+                        "lastCheckedInBy": "Arie Binghaman",
+                        "checkInDate": "8/11/25"
+                    },
+                    {
+                        "name": "824-SRS-00 Approved.pdf",
+                        "keyWords": "",
+                        "version": "1",
+                        "size": "1 MB",
+                        "author": "Arie Binghaman",
+                        "checkedOutBy": "",
+                        "lastCheckedInBy": "Arie Binghaman",
+                        "checkInDate": "8/11/25"
+                    },
+                    {
+                        "name": "824-SRS-01.pdf",
+                        "keyWords": "",
+                        "version": "1",
+                        "size": "1 MB",
+                        "author": "Arie Binghaman",
+                        "checkedOutBy": "",
+                        "lastCheckedInBy": "Arie Binghaman",
+                        "checkInDate": "8/11/25"
+                    },
+                    {
+                        "name": "824-TM-00.pdf",
+                        "keyWords": "",
+                        "version": "1",
+                        "size": "1 MB",
+                        "author": "Arie Binghaman",
+                        "checkedOutBy": "",
+                        "lastCheckedInBy": "Arie Binghaman",
+                        "checkInDate": "8/11/25"
+                    },
+                    {
+                        "name": "824-U-00.pdf",
+                        "keyWords": "",
+                        "version": "1",
+                        "size": "250 KB",
+                        "author": "Arie Binghaman",
+                        "checkedOutBy": "",
+                        "lastCheckedInBy": "Arie Binghaman",
+                        "checkInDate": "8/11/25"
+                    },
+                    {
+                        "name": "824-COHAOXWC.pdf",
+                        "keyWords": "",
+                        "version": "1",
+                        "size": "18 MB",
+                        "author": "Arie Binghaman",
+                        "checkedOutBy": "",
+                        "lastCheckedInBy": "Arie Binghaman",
+                        "checkInDate": "8/11/25"
+                    },
+                    {
+                        "name": "824-COP-00 FR_HATMN F.pdf",
+                        "keyWords": "",
+                        "version": "1",
+                        "size": "21 MB",
+                        "author": "Arie Binghaman",
+                        "checkedOutBy": "",
+                        "lastCheckedInBy": "Arie Binghaman",
+                        "checkInDate": "8/11/25"
+                    }
+                ]
+            }
+        },
+        {
+            "title": "Implementation Change Plan",
+            "style": {
+                "backgroundColor": "#1d69bf",
+                "color": "#fff",
+                "fontWeight": "bold",
+                "padding": "10px",
+                "marginTop": "20px",
+                "borderRadius": "6px 6px 0 0"
+            },
+            "fields": [
+                {
+                    "label": "Actual Implementation Date of Change Plan",
+                    "type": "date",
+                    "key": "actualImplementationDateOfChangePlan",
+                    "value": "",
+                    "style": {
+                        "width": "100%",
+                        "marginTop": "10px"
+                    }
+                },
+                {
+                    "label": "Production Implementation Lot",
+                    "type": "text",
+                    "key": "productionImplementationLot",
+                    "value": "",
+                    "style": {
+                        "width": "100%",
+                        "marginTop": "10px"
+                    }
+                },
+                {
+                    "label": "Closure Condition",
+                    "type": "textarea",
+                    "key": "closureCondition",
+                    "value": "",
+                    "style": {
+                        "width": "100%",
+                        "marginTop": "10px"
+                    }
+                },
+                {
+                    "label": "Effectiveness Results",
+                    "type": "textarea",
+                    "key": "effectivenessResults",
+                    "value": "",
+                    "style": {
+                        "width": "100%",
+                        "marginTop": "10px"
+                    }
+                },
+                {
+                    "label": "Effectiveness Criteria Met (Y/N)?",
+                    "type": "checkbox",
+                    "key": "effectivenessCriteriaMet",
+                    "value": "",
+                    "style": {
+                        "width": "100%",
+                        "marginTop": "10px"
+                    }
+                },
+                {
+                    "label": "Change Closure Signatories",
+                    "type": "text",
+                    "key": "changeClosureSignatories",
+                    "value": "",
+                    "style": {
+                        "width": "100%",
+                        "marginTop": "10px"
+                    }
+                },
+                {
+                    "label": "Quality Closure Signatories",
+                    "type": "text",
+                    "key": "qualityClosureSignatories",
+                    "value": "",
+                    "style": {
+                        "width": "100%",
+                        "marginTop": "10px"
+                    }
+                },
+                {
+                    "group": true,
+                    "layout": "horizontal",
+                    "fields": [
+                        {
+                            "label": "Initial Implementation Complete Date",
+                            "type": "date",
+                            "key": "initialImplementationCompleteDate",
+                            "value": "",
+                            "style": {
+                                "width": "48%"
+                            }
+                        },
+                        {
+                            "label": "Implementation Complete Date",
+                            "type": "date",
+                            "key": "implementationCompleteDate",
+                            "value": "",
+                            "style": {
+                                "width": "48%"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "label": "Number of Iterations - Implementation Complete",
+                    "type": "text",
+                    "key": "numberOfIterationsImplementationComplete",
+                    "value": "0",
+                    "style": {
+                        "width": "100%",
+                        "marginTop": "10px"
+                    }
+                },
+                {
+                    "group": true,
+                    "layout": "horizontal",
+                    "fields": [
+                        {
+                            "label": "Date Closed",
+                            "type": "date",
+                            "key": "dateClosed",
+                            "value": "",
+                            "style": {
+                                "width": "48%"
+                            }
+                        },
+                        {
+                            "label": "Initial Date Closed",
+                            "type": "date",
+                            "key": "initialDateClosed",
+                            "value": "",
+                            "style": {
+                                "width": "48%"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "label": "Number of Iterations - Closed",
+                    "type": "text",
+                    "key": "numberOfIterationsClosed",
+                    "value": "0",
+                    "style": {
+                        "width": "100%",
+                        "marginTop": "10px"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Notes",
+            "style": {
+                "backgroundColor": "#1d69bf",
+                "color": "#fff",
+                "fontWeight": "bold",
+                "padding": "10px",
+                "marginTop": "20px",
+                "borderRadius": "6px 6px 0 0"
+            },
+            "table": {
+                "columns": [
+                    {
+                        "header": "Note Author",
+                        "key": "noteAuthor",
+                        "type": "text"
+                    },
+                    {
+                        "header": "Date",
+                        "key": "date",
+                        "type": "date"
+                    },
+                    {
+                        "header": "Note",
+                        "key": "note",
+                        "type": "textarea"
+                    },
+                    {
+                        "header": "Changed Field",
+                        "key": "changedField",
+                        "type": "text"
+                    }
+                ],
+                "rows": [
+                    {
+                        "noteAuthor": "Arie Binghaman (bingama)",
+                        "date": "October 19, 2025",
+                        "note": "Change Plan:#22[Comments]: set to Raman system released to QC Chemistry to support method validation#22 on 08/15/2025. AB 10/19/2025.",
+                        "changedField": "Implementation"
+                    },
+                    {
+                        "noteAuthor": "Arie Binghaman (bingama)",
+                        "date": "October 19, 2025",
+                        "note": "Change Plan:#22[Completed By]: set to bingama",
+                        "changedField": "Implementation"
+                    },
+                    {
+                        "noteAuthor": "Arie Binghaman (bingama)",
+                        "date": "October 19, 2025",
+                        "note": "Change Plan:#22[Completion Date]: set to 2025-08-15 00:00:00",
+                        "changedField": "Implementation"
+                    },
+                    {
+                        "noteAuthor": "Arie Binghaman (bingama)",
+                        "date": "October 19, 2025",
+                        "note": "Change Plan:#22[Task Status]: changed from Pending to Complete",
+                        "changedField": "Implementation"
+                    },
+                    {
+                        "noteAuthor": "Arie Binghaman (bingama)",
+                        "date": "August 15, 2025",
+                        "note": "Hidden Logged In User: changed from liardf to bingama",
+                        "changedField": "Implementation"
+                    },
+                    {
+                        "noteAuthor": "Ferdinand Liard (liardf)",
+                        "date": "August 15, 2025",
+                        "note": "Implementation[#12[Comments]: set to Evidence attached to the protocol execution 824-CQP-01. FL, 08/15/25",
+                        "changedField": "Implementation"
+                    },
+                    {
+                        "noteAuthor": "Ferdinand Liard (liardf)",
+                        "date": "August 15, 2025",
+                        "note": "Change Plan:#10[Comments]: set to Evidence attached. FL 08/15/25",
+                        "changedField": "Implementation"
+                    },
+                    {
+                        "noteAuthor": "Ferdinand Liard (liardf)",
+                        "date": "August 15, 2025",
+                        "note": "Change Plan:#2[Comments]: changed from Configuration Kitana to Configuration item for Raman has been created in Kintana. Config item #53006. FL, 8/15/25",
+                        "changedField": "Implementation"
+                    },
+                    {
+                        "noteAuthor": "Ferdinand Liard (liardf)",
+                        "date": "August 15, 2025",
+                        "note": "Change Plan:#18[Comments]: changed from Updates to SOP15-023 is not required for the server for the Raman system will be backed up by Cohesity, with no procedure changes. Update to SOP15-023 is not required as the server for the Raman system will be backed up by Cohesity with no procedure changes. No mirror folder with backup procedure SOP15-023. FL 8/15/25",
+                        "changedField": "Implementation"
+                    },
+                    {
+                        "noteAuthor": "Ferdinand Liard (liardf)",
+                        "date": "August 15, 2025",
+                        "note": "Hidden Logged In User: to update SOP15-023. FL 8/15/25",
+                        "changedField": "Implementation"
+                    },
+                    {
+                        "noteAuthor": "Arie Binghaman (bingama)",
+                        "date": "August 14, 2025",
+                        "note": "Implementation[#16[Seq changed from 17 to 16",
+                        "changedField": "Implementation"
+                    },
+                    {
+                        "noteAuthor": "Arie Binghaman (bingama)",
+                        "date": "August 14, 2025",
+                        "note": "Change Plan:#17[Seq changed from 18 to 17",
+                        "changedField": "Implementation"
+                    },
+                    {
+                        "noteAuthor": "Arie Binghaman (bingama)",
+                        "date": "August 14, 2025",
+                        "note": "Change Plan:#18[Seq changed from 18 to 17",
+                        "changedField": "Implementation"
+                    },
+                    {
+                        "noteAuthor": "Arie Binghaman (bingama)",
+                        "date": "August 14, 2025",
+                        "note": "Change Plan:#19[Seq changed from 20 to 19",
+                        "changedField": "Implementation"
+                    },
+                    {
+                        "noteAuthor": "Arie Binghaman (bingama)",
+                        "date": "August 14, 2025",
+                        "note": "Change Plan:#20[Seq changed from 16 to 20",
+                        "changedField": "Implementation"
+                    },
+                    {
+                        "noteAuthor": "Arie Binghaman (bingama)",
+                        "date": "August 14, 2025",
+                        "note": "Change Plan:#17[Comments]: set to 824-CQP-01 FR is attached to this QCR",
+                        "changedField": "Implementation"
+                    },
+                    {
+                        "noteAuthor": "Arie Binghaman (bingama)",
+                        "date": "August 14, 2025",
+                        "note": "Change Plan:#17[Completed By]: set to bingama",
+                        "changedField": "Implementation"
+                    },
+                    {
+                        "noteAuthor": "Arie Binghaman (bingama)",
+                        "date": "August 14, 2025",
+                        "note": "Change Plan:#17[Completion Date]: set to 2025-08-14 00:00:00",
+                        "changedField": "Implementation"
+                    },
+                    {
+                        "noteAuthor": "Arie Binghaman (bingama)",
+                        "date": "August 14, 2025",
+                        "note": "Change Plan:#17[Task Status]: changed from Active to Complete",
+                        "changedField": "Implementation"
+                    },
+                    {
+                        "noteAuthor": "Arie Binghaman (bingama)",
+                        "date": "August 14, 2025",
+                        "note": "Change Plan:#8[Comments]: set to Refer to 824-CQP-01 Executed Protocol, attached to this QCR",
+                        "changedField": "Implementation"
+                    },
+                    {
+                        "noteAuthor": "Arie Binghaman (bingama)",
+                        "date": "August 14, 2025",
+                        "note": "Change Plan:#8[Completed By]: set to bingama",
+                        "changedField": "Implementation"
+                    },
+                    {
+                        "noteAuthor": "Arie Binghaman (bingama)",
+                        "date": "August 14, 2025",
+                        "note": "Change Plan:#8[Completion Date]: set to 2025-08-14 00:00:00",
+                        "changedField": "Implementation"
+                    },
+                    {
+                        "noteAuthor": "Arie Binghaman (bingama)",
+                        "date": "August 14, 2025",
+                        "note": "Change Plan:#8[Task Status]: changed from Active to Complete",
+                        "changedField": "Implementation"
+                    },
+                    {
+                        "noteAuthor": "Arie Binghaman (bingama)",
+                        "date": "August 14, 2025",
+                        "note": "Change Plan:#7[Comments]: set to Refer to 824-CQP-01 Executed Protocol, attached to this QCR",
+                        "changedField": "Implementation"
+                    },
+                    {
+                        "noteAuthor": "Arie Binghaman (bingama)",
+                        "date": "August 14, 2025",
+                        "note": "Change Plan:#7[Completed By]: set to bingama",
+                        "changedField": "Implementation"
+                    },
+                    {
+                        "noteAuthor": "Arie Binghaman (bingama)",
+                        "date": "August 14, 2025",
+                        "note": "Change Plan:#7[Completion Date]: set to 2025-08-14 00:00:00",
+                        "changedField": "Implementation"
+                    },
+                    {
+                        "noteAuthor": "Arie Binghaman (bingama)",
+                        "date": "August 14, 2025",
+                        "note": "Change Plan:#7[Task Status]: changed from Active to Complete",
+                        "changedField": "Implementation"
+                    },
+                    {
+                        "noteAuthor": "Arie Binghaman (bingama)",
+                        "date": "August 14, 2025",
+                        "note": "Change Plan:#11[Comments]: set to Refer to 824-CQP-01 Executed Protocol, attached to this QCR",
+                        "changedField": "Implementation"
+                    },
+                    {
+                        "noteAuthor": "Arie Binghaman (bingama)",
+                        "date": "August 14, 2025",
+                        "note": "Change Plan:#11[Completed By]: set to bingama",
+                        "changedField": "Implementation"
+                    },
+                    {
+                        "noteAuthor": "Arie Binghaman (bingama)",
+                        "date": "August 14, 2025",
+                        "note": "Change Plan:#11[Completion Date]: set to 2025-08-14 00:00:00",
+                        "changedField": "Implementation"
+                    },
+                    {
+                        "noteAuthor": "Arie Binghaman (bingama)",
+                        "date": "August 14, 2025",
+                        "note": "Change Plan:#11[Task Status]: changed from Active to Complete",
+                        "changedField": "Implementation"
+                    },
+                    {
+                        "noteAuthor": "Arie Binghaman (bingama)",
+                        "date": "August 14, 2025",
+                        "note": "Document Plan:#15[SOP73-261: changed from CR-000455942 for SOP73-261 submitted to 12AUG2025- and to SOP73-261 and SOP73-261 Form A - both were made effective in D2 on AUG2025- and are attached to this QCR",
+                        "changedField": "Implementation"
+                    },
+                    {
+                        "noteAuthor": "Arie Binghaman (bingama)",
+                        "date": "August 14, 2025",
+                        "note": "Change Plan:#15[Completed By]: set to bingama",
+                        "changedField": "Implementation"
+                    },
+                    {
+                        "noteAuthor": "Arie Binghaman (bingama)",
+                        "date": "August 14, 2025",
+                        "note": "Change Plan:#15[Completion Date]: set to 2025-08-14 00:00:00",
+                        "changedField": "Implementation"
+                    },
+                    {
+                        "noteAuthor": "Arie Binghaman (bingama)",
+                        "date": "August 14, 2025",
+                        "note": "Change Plan:#15[Task Status]: changed from Active to Complete",
+                        "changedField": "Implementation"
+                    },
+                    {
+                        "noteAuthor": "Arie Binghaman (bingama)",
+                        "date": "August 14, 2025",
+                        "note": "Change Plan:#4[Comments]: CQ P-01, attached to this QCR",
+                        "changedField": "Implementation"
+                    },
+                    {
+                        "noteAuthor": "Arie Binghaman (bingama)",
+                        "date": "August 14, 2025",
+                        "note": "Change Plan:#4[Completed By]: set to bingama",
+                        "changedField": "Implementation"
+                    },
+                    {
+                        "noteAuthor": "Arie Binghaman (bingama)",
+                        "date": "August 14, 2025",
+                        "note": "Change Plan:#4[Completion Date]: set to 2025-08-14 00:00:00",
+                        "changedField": "Implementation"
+                    },
+                    {
+                        "noteAuthor": "Arie Binghaman (bingama)",
+                        "date": "August 14, 2025",
+                        "note": "Change Plan:#4[Task Status]: changed from Active to Complete",
+                        "changedField": "Implementation"
+                    },
+                    {
+                        "noteAuthor": "Arie Binghaman (bingama)",
+                        "date": "August 14, 2025",
+                        "note": "Change Plan:#6[Comments]: set to Refer to 824-CQP-01 Executed Protocol, attached to this QCR",
+                        "changedField": "Implementation"
+                    },
+                    {
+                        "noteAuthor": "Arie Binghaman (bingama)",
+                        "date": "August 14, 2025",
+                        "note": "Change Plan:#6[Completed By]: set to bingama",
+                        "changedField": "Implementation"
+                    },
+                    {
+                        "noteAuthor": "Arie Binghaman (bingama)",
+                        "date": "August 14, 2025",
+                        "note": "Change Plan:#6[Completion Date]: set to 2025-08-14 00:00:00",
+                        "changedField": "Implementation"
+                    },
+                    {
+                        "noteAuthor": "Arie Binghaman (bingama)",
+                        "date": "August 14, 2025",
+                        "note": "Change Plan:#6[Task Status]: changed from Active to Complete",
+                        "changedField": "Implementation"
+                    },
+                    {
+                        "noteAuthor": "Arie Binghaman (bingama)",
+                        "date": "August 14, 2025",
+                        "note": "Change Plan:#3[Comments]: set to ITC R 550502 closed.",
+                        "changedField": "Implementation"
+                    },
+                    {
+                        "noteAuthor": "Arie Binghaman (bingama)",
+                        "date": "August 14, 2025",
+                        "note": "Change Plan:#3[Completed By]: set to bingama",
+                        "changedField": "Implementation"
+                    },
+                    {
+                        "noteAuthor": "Arie Binghaman (bingama)",
+                        "date": "August 14, 2025",
+                        "note": "Change Plan:#3[Completion Date]: set to 2025-08-14 00:00:00",
+                        "changedField": "Implementation"
+                    },
+                    {
+                        "noteAuthor": "Arie Binghaman (bingama)",
+                        "date": "August 14, 2025",
+                        "note": "Change Plan:#3[Task Status]: changed from Active to Complete",
+                        "changedField": "Implementation"
+                    },
+                    {
+                        "noteAuthor": "Arie Binghaman (bingama)",
+                        "date": "August 14, 2025",
+                        "note": "Change Plan:#13[Task Status]: changed from Active to Complete",
+                        "changedField": "Implementation"
+                    },
+                    {
+                        "noteAuthor": "Arie Binghaman (bingama)",
+                        "date": "August 14, 2025",
+                        "note": "Document Plan:#15[SOP73-261: changed from CR-000455942 for SOP73-261 submitted to 12AUG2025- and to SOP73-261 and SOP73-261 Form A - both were made effective in D2 on AUG2025- and are attached to this QCR",
+                        "changedField": "Implementation"
+                    },
+                    {
+                        "noteAuthor": "Arie Binghaman (bingama)",
+                        "date": "August 14, 2025",
+                        "note": "Change Plan:#21[Comments]: set to All above tasks 1-20 successfully completed for qualification of the instrument. Granting release for next project phase: Method Validation.",
+                        "changedField": "Implementation"
+                    },
+                    {
+                        "noteAuthor": "Arie Binghaman (bingama)",
+                        "date": "August 14, 2025",
+                        "note": "Change Plan:#21[Completed By]: set to liardf",
+                        "changedField": "Implementation"
+                    },
+                    {
+                        "noteAuthor": "Arie Binghaman (bingama)",
+                        "date": "August 14, 2025",
+                        "note": "Change Plan:#21[Completion Date]: set to 2025-08-15 00:00:00",
+                        "changedField": "Implementation"
+                    },
+                    {
+                        "noteAuthor": "Arie Binghaman (bingama)",
+                        "date": "August 14, 2025",
+                        "note": "Change Plan:#21[Task Status]: changed from Active to Complete",
+                        "changedField": "Implementation"
+                    },
+                    {
+                        "noteAuthor": "Arie Binghaman (bingama)",
+                        "date": "August 15, 2025",
+                        "note": "Hidden Logged In User: changed from bingama to liardf",
+                        "changedField": "Implementation"
+                    },
+                    {
+                        "noteAuthor": "Arie Binghaman (bingama)",
+                        "date": "August 15, 2025",
+                        "note": "Change Plan:#12[Comments]: changed from Evidence attached to the protocol execution 824-CQP-01. FL, 08/15/25 to CE-0333 from EO Evidence attached to the protocol execution 824-CQP-01. FL, 08/15/25 CE-0333, CE-0461. Evidence attached to the protocol execution",
+                        "changedField": "Implementation"
+                    },
+                    {
+                        "noteAuthor": "Arie Binghaman (bingama)",
+                        "date": "August 15, 2025",
+                        "note": "Change Plan:#12[Completed By]: set to bingama",
+                        "changedField": "Implementation"
+                    },
+                    {
+                        "noteAuthor": "Arie Binghaman (bingama)",
+                        "date": "August 15, 2025",
+                        "note": "Change Plan:#12[Completion Date]: set to 2025-08-15 00:00:00",
+                        "changedField": "Implementation"
+                    },
+                    {
+                        "noteAuthor": "Arie Binghaman (bingama)",
+                        "date": "August 15, 2025",
+                        "note": "Change Plan:#14[Comments]: set to PM01120. Evidence attached to the protocol execution 824-CQP-01",
+                        "changedField": "Implementation"
+                    },
+                    {
+                        "noteAuthor": "Arie Binghaman (bingama)",
+                        "date": "August 15, 2025",
+                        "note": "Change Plan:#14[Completed By]: set to bingama",
+                        "changedField": "Implementation"
+                    },
+                    {
+                        "noteAuthor": "Arie Binghaman (bingama)",
+                        "date": "August 15, 2025",
+                        "note": "Change Plan:#14[Completion Date]: set to 2025-08-15 00:00:00",
+                        "changedField": "Implementation"
+                    },
+                    {
+                        "noteAuthor": "Arie Binghaman (bingama)",
+                        "date": "August 15, 2025",
+                        "note": "Change Plan:#20[Comments]: set to Area supervisor confirmed the use of logbook is not required.",
+                        "changedField": "Implementation"
+                    },
+                    {
+                        "noteAuthor": "Arie Binghaman (bingama)",
+                        "date": "August 15, 2025",
+                        "note": "Change Plan:#20[Completed By]: set to bingama",
+                        "changedField": "Implementation"
+                    },
+                    {
+                        "noteAuthor": "Arie Binghaman (bingama)",
+                        "date": "August 15, 2025",
+                        "note": "Change Plan:#20[Completion Date]: set to 2025-08-15 00:00:00",
+                        "changedField": "Implementation"
+                    },
+                    {
+                        "noteAuthor": "Arie Binghaman (bingama)",
+                        "date": "August 15, 2025",
+                        "note": "Hidden Plan:#20[Task Status]: changed from Pending to Complete",
+                        "changedField": "Implementation"
+                    },
+                    {
+                        "noteAuthor": "Arie Binghaman (bingama)",
+                        "date": "August 15, 2025",
+                        "note": "Hidden Logged In User: changed from liardf to bingama",
+                        "changedField": "Implementation"
+                    },
+                    {
+                        "noteAuthor": "Ferdinand Liard (liardf)",
+                        "date": "August 15, 2025",
+                        "note": "Change Plan:#21[Comments]: set to Qualification of Instrument: All tasks 1-20 successfully completed for the qualification of the instrument. Granting release for next project phase: Method Validation.",
+                        "changedField": "Implementation"
+                    },
+                    {
+                        "noteAuthor": "Ferdinand Liard (liardf)",
+                        "date": "August 15, 2025",
+                        "note": "Change Plan:#21[Completed By]: set to liardf",
+                        "changedField": "Implementation"
+                    },
+                    {
+                        "noteAuthor": "Ferdinand Liard (liardf)",
+                        "date": "August 15, 2025",
+                        "note": "Change Plan:#21[Completion Date]: set to 2025-08-15 00:00:00",
+                        "changedField": "Implementation"
+                    },
+                    {
+                        "noteAuthor": "Ferdinand Liard (liardf)",
+                        "date": "August 15, 2025",
+                        "note": "Change Plan:#21[Task Status]: changed from Active to Complete",
+                        "changedField": "Implementation"
+                    },
+                    {
+                        "noteAuthor": "Ferdinand Liard (liardf)",
+                        "date": "August 15, 2025",
+                        "note": "Hidden Logged In User: changed from bingama to liardf",
+                        "changedField": "Implementation"
+                    },
+                    {
+                        "noteAuthor": "Ferdinand Liard (liardf)",
+                        "date": "August 15, 2025",
+                        "note": "Change Plan:#9[Comments]: Protocol execution 824-CQP-01, FL, 08/15/25, and CE-0461. Evidence attached to the protocol execution",
+                        "changedField": "Implementation"
+                    },
+                    {
+                        "noteAuthor": "Ferdinand Liard (liardf)",
+                        "date": "August 15, 2025",
+                        "note": "Change Plan:#9[Completed By]: set to bingama",
+                        "changedField": "Implementation"
+                    },
+                    {
+                        "noteAuthor": "Ferdinand Liard (liardf)",
+                        "date": "August 15, 2025",
+                        "note": "Change Plan:#9[Completion Date]: set to 2025-08-15 00:00:00",
+                        "changedField": "Implementation"
+                    },
+                    {
+                        "noteAuthor": "Ferdinand Liard (liardf)",
+                        "date": "August 15, 2025",
+                        "note": "Change Plan:#14[Comments]: set to PM01120. Evidence attached to the protocol execution 824-CQP-01",
+                        "changedField": "Implementation"
+                    },
+                    {
+                        "noteAuthor": "Ferdinand Liard (liardf)",
+                        "date": "August 15, 2025",
+                        "note": "Change Plan:#14[Completed By]: set to bingama",
+                        "changedField": "Implementation"
+                    },
+                    {
+                        "noteAuthor": "Ferdinand Liard (liardf)",
+                        "date": "August 15, 2025",
+                        "note": "Change Plan:#14[Completion Date]: set to 2025-08-15 00:00:00",
+                        "changedField": "Implementation"
+                    },
+                    {
+                        "noteAuthor": "Ferdinand Liard (liardf)",
+                        "date": "August 15, 2025",
+                        "note": "Change Plan:#20[Comments]: set to Area supervisor confirmed the use of logbook is not required.",
+                        "changedField": "Implementation"
+                    },
+                    {
+                        "noteAuthor": "Ferdinand Liard (liardf)",
+                        "date": "August 15, 2025",
+                        "note": "Change Plan:#20[Completed By]: set to bingama",
+                        "changedField": "Implementation"
+                    },
+                    {
+                        "noteAuthor": "Ferdinand Liard (liardf)",
+                        "date": "August 15, 2025",
+                        "note": "Change Plan:#20[Completion Date]: set to 2025-08-15 00:00:00",
+                        "changedField": "Implementation"
+                    },
+                    {
+                        "noteAuthor": "Ferdinand Liard (liardf)",
+                        "date": "August 15, 2025",
+                        "note": "Change Plan:#20[Task Status]: set to 2025-08-15 00:00:00",
+                        "changedField": "Implementation"
+                    }
+                ]
+            },
+            "fields": [
+                {
+                    "label": "Add Notes",
+                    "type": "textarea",
+                    "key": "addNotes",
+                    "value": "Notes to be added on save:",
+                    "style": {
+                        "width": "100%",
+                        "marginTop": "10px"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Workflow",
+            "style": {
+                "backgroundColor": "#1d69bf",
+                "color": "#fff",
+                "fontWeight": "bold",
+                "padding": "10px",
+                "marginTop": "20px",
+                "borderRadius": "6px 6px 0 0"
+            },
+            "table": {
+                "columns": [
+                    {
+                        "header": "Seq",
+                        "key": "seq",
+                        "type": "text"
+                    },
+                    {
+                        "header": "Workflow Step Name",
+                        "key": "workflowStepName",
+                        "type": "text"
+                    },
+                    {
+                        "header": "Step Status",
+                        "key": "stepStatus",
+                        "type": "text"
+                    },
+                    {
+                        "header": "Completed By",
+                        "key": "completedBy",
+                        "type": "text"
+                    },
+                    {
+                        "header": "Date",
+                        "key": "date",
+                        "type": "date"
+                    }
+                ],
+                "rows": [
+                    {
+                        "seq": "1",
+                        "workflowStepName": "Review by Change Review Specialist",
+                        "stepStatus": "Complete",
+                        "completedBy": "Ada Ortiz Ramos",
+                        "date": "May 21, 2025"
+                    },
+                    {
+                        "seq": "2",
+                        "workflowStepName": "Pending Requester Info",
+                        "stepStatus": "Complete",
+                        "completedBy": "Ada Ortiz Ramos",
+                        "date": "May 21, 2025"
+                    },
+                    {
+                        "seq": "3",
+                        "workflowStepName": "Regulatory Review",
+                        "stepStatus": "Complete",
+                        "completedBy": "Arie Binghaman",
+                        "date": "May 19, 2025"
+                    },
+                    {
+                        "seq": "4",
+                        "workflowStepName": "LCB Disposition",
+                        "stepStatus": "Complete",
+                        "completedBy": "Kristin Davis",
+                        "date": "May 22, 2025"
+                    },
+                    {
+                        "seq": "5",
+                        "workflowStepName": "COC Disposition",
+                        "stepStatus": "Approve",
+                        "completedBy": "Ada Ortiz Ramos",
+                        "date": "May 27, 2025"
+                    },
+                    {
+                        "seq": "6",
+                        "workflowStepName": "COC Disposition Plan",
+                        "stepStatus": "Approve",
+                        "completedBy": "Ada Ortiz Ramos",
+                        "date": "May 27, 2025"
+                    },
+                    {
+                        "seq": "7",
+                        "workflowStepName": "Develop Change Plan",
+                        "stepStatus": "Complete",
+                        "completedBy": "Arie Binghaman",
+                        "date": "May 27, 2025"
+                    },
+                    {
+                        "seq": "8",
+                        "workflowStepName": "Approve Change Plan",
+                        "stepStatus": "Approve",
+                        "completedBy": "Jeffrey Wong",
+                        "date": "May 28, 2025"
+                    },
+                    {
+                        "seq": "9",
+                        "workflowStepName": "Implement Change Plan",
+                        "stepStatus": "Eligible",
+                        "completedBy": "Jeffrey Wong",
+                        "date": "May 28, 2025"
+                    },
+                    {
+                        "seq": "10",
+                        "workflowStepName": "Implementation Complete",
+                        "stepStatus": "Eligible",
+                        "completedBy": "Kristin Davis",
+                        "date": "October 19, 2025"
+                    },
+                    {
+                        "seq": "11",
+                        "workflowStepName": "Closed",
+                        "stepStatus": "Eligible",
+                        "completedBy": "",
+                        "date": ""
+                    },
+                    {
+                        "seq": "12",
+                        "workflowStepName": "Rejected",
+                        "stepStatus": "Approve",
+                        "completedBy": "Ada Ortiz Ramos",
+                        "date": "May 27, 2025"
+                    },
+                    {
+                        "seq": "13",
+                        "workflowStepName": "Rejected",
+                        "stepStatus": "",
+                        "completedBy": "",
+                        "date": ""
+                    },
+                    {
+                        "seq": "14",
+                        "workflowStepName": "Cancelled",
+                        "stepStatus": "Eligible",
+                        "completedBy": "Jeffrey Wong",
+                        "date": "October 19, 2025"
+                    },
+                    {
+                        "seq": "19",
+                        "workflowStepName": "Create Child Request",
+                        "stepStatus": "Eligible",
+                        "completedBy": "",
+                        "date": "May 28, 2025"
+                    },
+                    {
+                        "seq": "47",
+                        "workflowStepName": "Send Information Email",
+                        "stepStatus": "Eligible",
+                        "completedBy": "",
+                        "date": "May 28, 2025"
+                    },
+                    {
+                        "seq": "110",
+                        "workflowStepName": "Approval to Reopen Request",
+                        "stepStatus": "",
+                        "completedBy": "",
+                        "date": ""
+                    },
+                    {
+                        "seq": "114",
+                        "workflowStepName": "Update Reopened Request",
+                        "stepStatus": "",
+                        "completedBy": "",
+                        "date": ""
+                    },
+                    {
+                        "seq": "116",
+                        "workflowStepName": "Reopen Review Complete",
+                        "stepStatus": "",
+                        "completedBy": "",
+                        "date": ""
+                    },
+                    {
+                        "seq": "117",
+                        "workflowStepName": "Pending Submission to Reopen",
+                        "stepStatus": "",
+                        "completedBy": "",
+                        "date": ""
+                    },
+                    {
+                        "seq": "128",
+                        "workflowStepName": "Set Target Imp Date",
+                        "stepStatus": "",
+                        "completedBy": "",
+                        "date": ""
+                    }
+                ]
+            }
+        },
+        {
+            "title": "Post Approvals",
+            "table": {
+                "columns": [
+                    {
+                        "header": "Name & Title",
+                        "key": "name",
+                        "type": "text"
+                    },
+                    {
+                        "header": "Role",
+                        "key": "role",
+                        "type": "text"
+                    },
+                    {
+                        "header": "Signature & Date",
+                        "key": "signature",
+                        "type": "button",
+                        "label": "Signature"
+                    }
+                ],
+                "rows": [
+                    {
+                        "name": "gracy1",
+                        "role": "Plan Approval",
+                        "signature": ""
+                    },
+                    {
+                        "name": "wong2",
+                        "role": "Plan Approval",
+                        "signature": ""
+                    },
+                    {
+                        "name": "primele",
+                        "role": "Plan Approval",
+                        "signature": ""
+                    },
+                    {
+                        "name": "navedot",
+                        "role": "Quality Plan Approval",
+                        "signature": ""
+                    },
+                    {
+                        "name": "ortizra",
+                        "role": "Change Review Specialist",
+                        "signature": ""
+                    }
+                ]
+            }
+        },
+        {
+            "title": "Revision History",
+            "style": {
+                "backgroundColor": "#1d69bf",
+                "color": "#fff",
+                "fontWeight": "bold",
+                "padding": "10px",
+                "marginTop": "20px",
+                "borderRadius": "6px 6px 0 0"
+            },
+            "table": {
+                "columns": [
+                    {
+                        "header": "Version",
+                        "key": "revisionVersion",
+                        "type": "text"
+                    },
+                    {
+                        "header": "Date",
+                        "key": "revisionDate",
+                        "type": "date"
+                    },
+                    {
+                        "header": "Author",
+                        "key": "revisionAuthor",
+                        "type": "text"
+                    },
+                    {
+                        "header": "Revision Description",
+                        "key": "revisionDescription",
+                        "type": "textarea"
+                    }
+                ],
+                "rows": [
+                    {
+                        "revisionVersion": "1.0",
+                        "revisionDate": "2025-05-19",
+                        "revisionAuthor": "Arie Binghaman",
+                        "revisionDescription": "Initial submission for NanoRam installation."
+                    }
+                ]
+            }
+        }
+    ],
+    "submitButton": {
+        "label": "Submit QCR",
+        "style": {
+            "backgroundColor": "#1d69bf",
+            "color": "#fff",
+            "padding": "10px 20px",
+            "borderRadius": "6px",
+            "marginTop": "20px",
+            "alignSelf": "flex-end"
+        }
+    }
+}
