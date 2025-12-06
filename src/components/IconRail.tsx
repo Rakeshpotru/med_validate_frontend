@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom'
-import { useTheme } from './useTheme'
+import { useTheme } from './UseTheme'
 import { LayoutGrid, FolderClosed, CalendarDays, BarChart3, Settings, Sun, Moon, Shield, UserCheck, FileText,LayoutTemplate } from 'lucide-react'
 
 function IconRail() {
