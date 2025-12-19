@@ -1108,7 +1108,9 @@ const ProjectTaskEditor: React.FC<ProjectTaskEditorProps> = forwardRef<EditorImp
             };
 
             const connectWebSocket = (taskId: string) => {
-                const wsUrl = `ws://127.0.0.1:8026/api/ws/${taskId}`;
+                // const wsUrl = `ws://127.0.0.1:8026/api/ws/${taskId
+            const wsUrl = `wss://med-validate-api-gchkeefefhhxh7em.centralindia-01.azurewebsites.net/api/ws/${taskId}`;
+
                 // const wsUrl = `ws://20.84.100.70/api/ws/${taskId}`;
                 const ws = new WebSocket(wsUrl);
                 wsRef.current = ws;
